@@ -1,9 +1,14 @@
 #!/usr/bin/env nix-shell
 #! nix-shell -i bash -p pandoc
 
-dir=proposal
+INPUT_PATH=proposal
 
-echo "Preparing Slides ..."
-pandoc -t revealjs -s -o $dir/proposal.html $dir/proposal.org --embed-resources \
-    -V theme=dracula --toc=false --css=$dir/custom.css
+echo "Preparing slides ..."
+pandoc -t revealjs -s -o $INPUT_PATH/proposal.html $INPUT_PATH/proposal.org --embed-resources \
+    -V theme=dracula --toc=false --css=$INPUT_PATH/custom.css
+echo "Done"
+
+echo "Preparing artifact ..."
+# tar -cvf ./artifact.tar $INPUT_PATH/proposal.html
+tar -cvf "$RUNNER_TEMP/artifact.tar" $INPUT_PATH/proposal.html
 echo "Done"
