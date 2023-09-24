@@ -21,10 +21,10 @@
           find . -mindepth 2 -type f -name '*.org' | while read -r file; do
             outfile="''${file%.org}.html"
             dir=$(dirname "$file")
-            pandoc -t revealjs -o "$outfile" "$file" --embed-resources \
+            ${pkgs.pandoc}/bin/pandoc -t revealjs -o "$outfile" "$file" --embed-resources \
               -V theme=dracula --toc=false --css="$dir/custom.css"
           done
-          pandoc -s index.org -o index.html
+          ${pkgs.pandoc}/bin/pandoc -s index.org -o index.html
           echo "Done"
           EOF
           chmod +x $out/bin/runPandoc
