@@ -1,22 +1,5 @@
-name: Build capstone presentations on Nix
-
-on:
-  pull_request:
-    branches: [ "main" ]
-  workflow_dispatch:
-
-jobs:
-  build:
-    runs-on: ubuntu-22.04
-    steps:
-        - uses: actions/checkout@v3
-        - uses: DeterminateSystems/nix-installer-action@main
-        - uses: DeterminateSystems/magic-nix-cache-action@main
-        - name: build slides
-          run: nix develop
-
 # Simple workflow for deploying static content to GitHub Pages
-name: Deploy static content to Pages
+name: Build capstone presentations on Nix
 
 on:
   # Runs on pushes targeting the default branch
