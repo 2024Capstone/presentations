@@ -1,0 +1,5 @@
+#+Title: 2024 Capstone Presentations
+#+Subtitle: ENSE400, University of Regina
+
+* Presentations
+- [[./proposal/proposal.html][Proposal]]
