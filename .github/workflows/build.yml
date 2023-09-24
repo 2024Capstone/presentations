@@ -45,5 +45,5 @@ jobs:
           name: 'github-pages'
           path: '/home/runner/work/_temp/artifact.tar'
       - name: Deploy to GitHub Pages
-          id: deployment
-          uses: actions/deploy-pages@v2
+        id: deployment
+        uses: actions/deploy-pages@v2
