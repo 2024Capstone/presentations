@@ -1,6 +1,5 @@
 {
-    # inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixos-23.05";
-    inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+  inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixos-23.05";
 
   outputs = {
     self,
@@ -22,8 +21,8 @@
           find . -mindepth 2 -type f -name '*.org' | while read -r file; do
             outfile="''${file%.org}.html"
             dir=$(dirname "$file")
-            ${pkgs.pandoc}/bin/pandoc -t revealjs -o "$outfile" "$file" --embed-resources \
-              -V theme=dracula --toc=false --css="$dir/custom.css"
+            ${pkgs.pandoc}/bin/pandoc -t revealjs -s -o "$outfile" "$file" --embed-resources \
+              -V theme=dracula --css="$dir/custom.css"
           done
           ${pkgs.pandoc}/bin/pandoc -s index.org -o index.html
           echo "Done"
