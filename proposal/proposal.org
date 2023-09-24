@@ -1,0 +1,23 @@
+#+Title: 2024 Capstone Proposal
+#+Subtitle: ENSE400, University of Regina
+#+Author: Ben Hajdukiewicz, Daniil Aleshechkin, Adam Metz
+# #+OPTIONS: num:nil
+# #+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+# #+OPTIONS: toc:nil
+
+* Introduction
+# What?
+
+* Proposed Plan
+# How?
+
+* Questions?
+
+# Use this template/guide to help you create your team's capstone project pitches
+# NOTE #1: You will all get a 5-minute timebox for your pitches. If you have multiple ideas you'd like feedback on, plan accordingly!
+
+# In the spirit of plan-do-study-act (PDSA) and the golden circle, discuss
+# **Why** you want to "**plan-do**" what you're proposing (**max 1 minute**)
+# **How** you're going to "**study-act**" upon it (**max 1 minute**)
+# **What** you're going to **create/iterate** (**max 1 minute**)
+# **Q/A** with class peers and instructor/mentors (**max 2 minutes**)

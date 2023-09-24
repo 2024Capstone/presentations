@@ -1,0 +1,9 @@
+#!/usr/bin/env nix-shell
+#! nix-shell -i bash -p pandoc
+
+dir=proposal
+
+echo "Preparing Slides ..."
+pandoc -t revealjs -s -o $dir/proposal.html $dir/proposal.org --embed-resources \
+    -V theme=dracula --toc=false --css=$dir/custom.css
+echo "Done"

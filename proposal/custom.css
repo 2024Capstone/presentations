@@ -1,0 +1,9 @@
+/* Custom font size for headings */
+.reveal h1 {
+  font-size: 50px;
+}
+
+/* Custom font size for normal text */
+.reveal p {
+  font-size: 20px;
+}
