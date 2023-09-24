@@ -36,7 +36,7 @@ jobs:
       - name: Use cache
         uses: DeterminateSystems/magic-nix-cache-action@main
       - name: Convert pages
-        run: ./build
+        run:  nix run .#runPandoc
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
