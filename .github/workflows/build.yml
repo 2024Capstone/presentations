@@ -35,6 +35,8 @@ jobs:
         uses: DeterminateSystems/nix-installer-action@main
       - name: Use cache
         uses: DeterminateSystems/magic-nix-cache-action@main
+        with:
+          upstream-cache: ''
       - name: Convert pages
         run:  nix run .#runPandoc
       - name: Setup Pages
