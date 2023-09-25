@@ -34,7 +34,7 @@ By focusing on the unknown potentials of abundant data, we will explore multiple
 Implementing Nix for more reliable and reproducible project environments compared to Docker.
 Utilizing advanced technologies like AWS Datalake and Athena, coupled with Rust, R, and Python, we aim to simplify preprocessing and manage data effectively.
 
-# [[./logo.svg]]
+[[./logo.svg]]
 # We want to emphasize the importance of collaborative refinement and input on the proposed tool and engage in discussions about its potential and adaptability in diverse operational environments.
 
 * What
@@ -60,7 +60,7 @@ By focusing on consolidating and normalizing data where possible, the tool will 
 A successful MVP will demonstrate substantial advancements in project and data uniformity, and the simplification in the pre-processing process and data selection for downstream tasks, leading to more streamlined and efficient exploratory data analysis.
 
 * Nardo
-# [[./nardo.jpg]]
+[[./nardo.jpg]]
 
 NASA, Public domain, via Wikimedia Commons
 
