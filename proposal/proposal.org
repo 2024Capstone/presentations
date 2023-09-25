@@ -35,18 +35,10 @@ Implementing Nix for more reliable and reproducible project environments compare
 Utilizing advanced technologies like AWS Datalake and Athena, coupled with Rust, R, and Python, we aim to simplify preprocessing and manage data effectively.
 
 [[./logo.svg]]
+
 # We want to emphasize the importance of collaborative refinement and input on the proposed tool and engage in discussions about its potential and adaptability in diverse operational environments.
 
 * What
-# *Focus on explorative data analysis*
-#  - abundance of data with unknown use cases
-#  - too much to many process
-# *Manage the tracking, processing, visualization processes of EDA*
-#  - relationship to the possible usecases
-#  - track this relationship
-
-# A successful MVP will address these goals
-
 *Develop a Comprehensive Management Tool:*
 Aim to construct a management tool that exclusively emphasizes the pre-processing, explorative, and coding components of data science projects, ensuring thorough tracking and management of the early stages of such projects.
 
