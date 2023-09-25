@@ -21,7 +21,7 @@ striving to improve upon core business operations.
  - define key metrics to track project progress
  - define user stories
 
-[[./logo.svg]]
+# [[./logo.svg]]
 
 * What
 *Focus on explorative data analysis*
