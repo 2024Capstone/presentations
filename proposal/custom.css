@@ -1,9 +1,34 @@
-/* Custom font size for headings */
 .reveal h1 {
-  font-size: 50px;
+  font-size: 70px;
 }
 
-/* Custom font size for normal text */
 .reveal p {
-  font-size: 20px;
+  font-size: 30px;
+  text-align: left;
+}
+
+.reveal ul {
+  font-size: 30px;
+  text-align: left;
+}
+
+.reveal li {
+  font-size: 30px;
+  text-align: left;
+}
+.reveal .slides {
+    text-align: left;
+}
+
+.reveal img {
+    max-width: 50%;
+    max-height: 50%;
+}
+
+img[src="./logo.svg"] {
+  position: fixed;
+  /* bottom: 0; */
+  right: 0;
+  width: 30% !important;
+  height: auto;
 }

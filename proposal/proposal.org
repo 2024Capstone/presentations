@@ -5,13 +5,41 @@
 # #+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
 # #+OPTIONS: toc:nil
 
-* Introduction
+* Why
+*Two fold:*
+ - The ultimate goal is to reduce water consumption and cost per tonne
+ - Data science/ML projects are difficult to manage
+
+By providing a solution to the latter, we move the needle on the former.
+We plan to provide data and project uniformity to improve upon existing
+processes for data centric projects. /Operational Excellence/ project,
+striving to improve upon core business operations.
+
+* How
+*Work with our client to:*
+ - determine how to capture usecases and integrate data
+ - define key metrics to track project progress
+ - define user stories
+
+[[./logo.svg]]
+
+* What
+*Focus on explorative data analysis*
+ - abundance of data that we don't know the usecases for
+ - too much to many process
+*Manage the tracking, preprocessing, visualization process of the EDA*
+ - relationship to the possible usecases
+ - track this relationship
+
+A successful MVP will address these goals
+
+# * Introduction
 # What?
 
-* Proposed Plan
+# * Proposed Plan
 # How?
 
-* Questions?
+# * Questions?
 
 # Use this template/guide to help you create your team's capstone project pitches
 # NOTE #1: You will all get a 5-minute timebox for your pitches. If you have multiple ideas you'd like feedback on, plan accordingly!
