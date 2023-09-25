@@ -24,7 +24,7 @@
             ${pkgs.pandoc}/bin/pandoc -t revealjs -s -o "$outfile" "$file" --embed-resources \
               -V theme=dracula --css="$dir/custom.css"
           done
-          ${pkgs.pandoc}/bin/pandoc -s index.org -o index.html
+          ${pkgs.pandoc}/bin/pandoc -s index.org -o index.html --css=custom.css
           echo "Done"
           EOF
           chmod +x $out/bin/runPandoc

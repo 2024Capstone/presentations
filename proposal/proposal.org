@@ -1,4 +1,5 @@
-#+Title: 2024 Capstone Proposal
+#+Title: Capstone Proposal
+#+Subtitle: Codename 'Nardo'
 #+Subtitle: ENSE400, University of Regina
 #+Author: Ben Hajdukiewicz, Daniil Aleshechkin, Adam Metz
 # #+OPTIONS: num:nil
@@ -6,40 +7,64 @@
 # #+OPTIONS: toc:nil
 
 * Why
-*Two fold:*
- - The ultimate goal is to reduce water consumption and cost per tonne
- - Data science/ML projects are difficult to manage
+*Ultimate Goal:*
+Reduce water consumption and cost per tonne, addressing significant environmental and economic concerns in operational processes.
 
-By providing a solution to the latter, we move the needle on the former.
-We plan to provide data and project uniformity to improve upon existing
-processes for data centric projects. /Operational Excellence/ project,
-striving to improve upon core business operations.
+*Address Management Difficulties in DS/ML Projects:*
+- Current tools fall short in tracking and managing the early stages of data-centric projects, including data preprocessing and EDA
+- Address the challenge of managing data from multiple sources
+- Enhanced manageability will indirectly advance operational excellence by improving core business operations, thereby facilitating efficient and insightful data-centric projects
+
+We plan to provide data and project uniformity to existing processes for data centric projects.
+
+- /Operational Excellence/: striving to improve upon core business operations
 
 * How
-*Work with our client to:*
- - determine how to capture usecases and integrate data
- - define key metrics to track project progress
- - define user stories
+*Collaborative Approach:*
+Engage with the client to integrate use cases and aggregate diverse data seamlessly.
+Work on defining critical metrics and user stories to monitor and enhance project progress.
+ - identify and engage stakeholders
+ - perform iterative user testing
+
+*Focus on EDA:*
+By focusing on the unknown potentials of abundant data, we will explore multiple use cases and manage the extensive process, from tracking to visualization.
+- track use case data for future applications
+
+*Innovative Solution:*
+Implementing Nix for more reliable and reproducible project environments compared to Docker.
+Utilizing advanced technologies like AWS Datalake and Athena, coupled with Rust, R, and Python, we aim to simplify preprocessing and manage data effectively.
 
 # [[./logo.svg]]
+# We want to emphasize the importance of collaborative refinement and input on the proposed tool and engage in discussions about its potential and adaptability in diverse operational environments.
 
 * What
-*Focus on explorative data analysis*
- - abundance of data that we don't know the usecases for
- - too much to many process
-*Manage the tracking, preprocessing, visualization process of the EDA*
- - relationship to the possible usecases
- - track this relationship
+# *Focus on explorative data analysis*
+#  - abundance of data with unknown use cases
+#  - too much to many process
+# *Manage the tracking, processing, visualization processes of EDA*
+#  - relationship to the possible usecases
+#  - track this relationship
 
-A successful MVP will address these goals
+# A successful MVP will address these goals
 
-# * Introduction
-# What?
+*Develop a Comprehensive Management Tool:*
+Aim to construct a management tool that exclusively emphasizes the pre-processing, explorative, and coding components of data science projects, ensuring thorough tracking and management of the early stages of such projects.
 
-# * Proposed Plan
-# How?
+*Eliminate Early Stage Complications:*
+The tool will work to obviate the need for per-project R and Python notebooks for the early stages of projects, mitigating the duplication of work and promoting uniformity in project structure and data handling, thus facilitating faster project initiation.
 
-# * Questions?
+*Enhance Data Uniformity:*
+By focusing on consolidating and normalizing data where possible, the tool will streamline the selection of data for downstream tasks such as explorative data analysis and visualization, and potentially training and testing in future iterations.
+
+*Success Metrics:*
+A successful MVP will demonstrate substantial advancements in project and data uniformity, and the simplification in the pre-processing process and data selection for downstream tasks, leading to more streamlined and efficient exploratory data analysis.
+
+* Nardo
+# [[./nardo.jpg]]
+
+NASA, Public domain, via Wikimedia Commons
+
+* Questions?
 
 # Use this template/guide to help you create your team's capstone project pitches
 # NOTE #1: You will all get a 5-minute timebox for your pitches. If you have multiple ideas you'd like feedback on, plan accordingly!
