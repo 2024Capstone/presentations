@@ -5,6 +5,10 @@
 # #+OPTIONS: num:nil
 # #+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
 # #+OPTIONS: toc:nil
+* Codename Nardo
+[[./nardo.jpg]]
+
+NASA, Public domain, via Wikimedia Commons
 
 * Why
 *Ultimate Goal:*
@@ -50,11 +54,6 @@ By focusing on consolidating and normalizing data where possible, the tool will 
 
 *Success Metrics:*
 A successful MVP will demonstrate substantial advancements in project and data uniformity, and the simplification in the pre-processing process and data selection for downstream tasks, leading to more streamlined and efficient exploratory data analysis.
-
-* Nardo
-[[./nardo.jpg]]
-
-NASA, Public domain, via Wikimedia Commons
 
 * Questions?
 
