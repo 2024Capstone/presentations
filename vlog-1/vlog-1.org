@@ -9,7 +9,6 @@
 #+REVEAL_THEME: dracula
 # #+REVEAL_PLUGINS: (notes)
 # #+REVEAL_INIT_OPTIONS: showNotes: true
-
 * Codename Nardo
 #+BEGIN_notes
 Addressing Operational Challenges in DS/ML Projects
