@@ -1,0 +1,46 @@
+#+Title: Codename 'Nardo'
+#+Subtitle: Vlog 1
+#+Subtitle: ENSE400, University of Regina
+#+Author: Ben Hajdukiewicz, Daniil Aleshechkin, Adam Metz
+# #+OPTIONS: num:nil
+# #+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+# #+OPTIONS: toc:nil
+
+* Preliminary
+Your capstone vlogs are all to be uploaded to YouTube (unlisted if your team prefers) with links to vlogs posted on your team's GitHub (and URCourses wiki) by the due date (timestamps will be confirmed). Your team's first vlog introduces your team's project to the world as per the guidelines below (your vlog should be a minimum of 5 minutes to a maximum of 10 minutes). Aside: Some of the content you use to create your vlog can also be used in various project documentation as well!
+
+Due: Oct. 2, 2023, at 11:59 pm
+
+* Team member introductions
+Introduce who's on the team. If you know, discuss everyone's project roles and responsibilities (or as you envision them now)
+
+* Project background & business need/opportunity
+Here, your team should discuss information that will help the viewer (SSE faculty and the general public) understand the context and background history of your team's project. This discussion should assume that viewers are not well-versed (knowledgeable) regarding the background of the project or project area. You should also try to dive into the business need, opportunities/innovations that your team's project idea will introduce into the world, as well as what has been done to solve the problem already/innovate in the area and how your team is contributing to something different/new
+
+* Reason
+Before we start creating something, we need to know why we are creating. We create for many reasons, such as:
+
+To solve a problem (This is the engineer's bread and butter)
+Show someone our thinking
+Express our ideas, feelings, or interpretations
+Interpret information in a new way
+Etc.
+So think about and discuss your team's reason to create? It would also be good to dive into your team's "why" (i.e. your team's golden circle, aka Simon Sinek's "why", re: ENSE 374)
+
+* Impact
+Sometimes we can start with the impact we want to create - how will our project and the work we do on our project change our current reality, and how will we achieve this new reality, e.g. learning new tech, using class notes from Tim's classes...haha, etc.)? This helps us think more broadly while we are creating. To help discuss your project's impact, [fill in the details] and discuss the following statement in your vlog
+
+When we are done [our current reality] will now be [our new reality] so we think we need to [action step]
+
+* Who
+When we know who we are creating for, our audience, our work is more meaningful, relevant and appropriate. So think about and discuss:
+
+Who is your audience?
+Whose opinion matters?
+Who do you want to reach with your work?
+Also, know/discuss where your audience is?
+In the same room, city, province, across the globe?
+Where do they get their information? (paper, digital, opinion, peer-reviewed, etc.)
+
+* What
+Think about and discuss what type of constraints your team envisions, e.g. knowledge, technology, access to customers, etc? Constraints are important to know as they enable us to push ourselves to think even more creatively To inspire better thinking, we have to become more resourceful and work within limitations - what are the envisioned constraints and limitations?
