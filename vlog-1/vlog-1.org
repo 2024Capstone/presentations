@@ -23,6 +23,9 @@ NASA, Public domain, via Wikimedia Commons
 
 
 * Meet the Team
+- Daniil Aleshechkin
+- Ben Hajdukiewicz
+- Adam Metz
 #+BEGIN_notes
 Roles and Responsibilities
 
@@ -44,6 +47,12 @@ Talking Points:
 
 
 * The Golden Circle: Why?
+- Main business goal: Reduce water consumption
+- Improve K+S business operations
+    - Consolidate data sources
+    - Streamline reporting
+    - Enable proper ML/ DS to be done 
+
 #+BEGIN_notes
 The driving force behind our Innovation
 
