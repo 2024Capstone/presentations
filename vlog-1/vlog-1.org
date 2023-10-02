@@ -87,6 +87,9 @@ Talking Points:
 
 
 * Knowing our Audience
+- Support all existing reporting/ monitoring use cases
+- Enable new reports with the consolidated data
+- Design ML models for relevant predictions
 #+BEGIN_notes
 Tailoring Solutions to Needs
 
