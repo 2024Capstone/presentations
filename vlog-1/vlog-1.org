@@ -5,8 +5,8 @@
 # #+OPTIONS: num:nil
 # #+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
 # #+OPTIONS: toc:nil
-#+REVEAL_THEME: custom.css
-#+REVEAL_THEME: dracula
+# #+REVEAL_THEME: custom.css
+# #+REVEAL_THEME: dracula
 # #+REVEAL_PLUGINS: (notes)
 # #+REVEAL_INIT_OPTIONS: showNotes: true
 * Codename Nardo
