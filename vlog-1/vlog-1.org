@@ -5,42 +5,135 @@
 # #+OPTIONS: num:nil
 # #+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
 # #+OPTIONS: toc:nil
+#+REVEAL_THEME: custom.css
+#+REVEAL_THEME: dracula
+# #+REVEAL_PLUGINS: (notes)
+# #+REVEAL_INIT_OPTIONS: showNotes: true
 
-* Preliminary
-Your capstone vlogs are all to be uploaded to YouTube (unlisted if your team prefers) with links to vlogs posted on your team's GitHub (and URCourses wiki) by the due date (timestamps will be confirmed). Your team's first vlog introduces your team's project to the world as per the guidelines below (your vlog should be a minimum of 5 minutes to a maximum of 10 minutes). Aside: Some of the content you use to create your vlog can also be used in various project documentation as well!
+* Codename Nardo
+#+BEGIN_notes
+Addressing Operational Challenges in DS/ML Projects
 
-Due: Oct. 2, 2023, at 11:59 pm
+Talking Points:
+- Brief introduction of the project, Codename Nardo.
+- Mentioning the essence of addressing complications in the initial stages of data science projects.
+#+END_notes
 
-* Team member introductions
-Introduce who's on the team. If you know, discuss everyone's project roles and responsibilities (or as you envision them now)
+[[./nardo.jpg]]
+NASA, Public domain, via Wikimedia Commons
 
-* Project background & business need/opportunity
-Here, your team should discuss information that will help the viewer (SSE faculty and the general public) understand the context and background history of your team's project. This discussion should assume that viewers are not well-versed (knowledgeable) regarding the background of the project or project area. You should also try to dive into the business need, opportunities/innovations that your team's project idea will introduce into the world, as well as what has been done to solve the problem already/innovate in the area and how your team is contributing to something different/new
 
-* Reason
-Before we start creating something, we need to know why we are creating. We create for many reasons, such as:
+* Meet the Team
+#+BEGIN_notes
+Roles and Responsibilities
 
-To solve a problem (This is the engineer's bread and butter)
-Show someone our thinking
-Express our ideas, feelings, or interpretations
-Interpret information in a new way
-Etc.
-So think about and discuss your team's reason to create? It would also be good to dive into your team's "why" (i.e. your team's golden circle, aka Simon Sinek's "why", re: ENSE 374)
+Talking Points:
+- Introduce each team member with their envisioned roles and responsibilities.
+- Briefly describe the unique skill set each member brings to the project.
+#+END_notes
 
-* Impact
-Sometimes we can start with the impact we want to create - how will our project and the work we do on our project change our current reality, and how will we achieve this new reality, e.g. learning new tech, using class notes from Tim's classes...haha, etc.)? This helps us think more broadly while we are creating. To help discuss your project's impact, [fill in the details] and discuss the following statement in your vlog
 
-When we are done [our current reality] will now be [our new reality] so we think we need to [action step]
+* Project Background
+#+BEGIN_notes
+Identifying the Gaps in DS/ML Projects
 
-* Who
-When we know who we are creating for, our audience, our work is more meaningful, relevant and appropriate. So think about and discuss:
+Talking Points:
+- Overview of the existing challenges in managing the early stages of data-centric projects.
+- Highlight the need for a uniform platform focusing on the pre-processing, explorative, and coding components.
+- Explanation of how current tools fall short, and the innovation that Project Nardo brings to the table.
+#+END_notes
 
-Who is your audience?
-Whose opinion matters?
-Who do you want to reach with your work?
-Also, know/discuss where your audience is?
-In the same room, city, province, across the globe?
-Where do they get their information? (paper, digital, opinion, peer-reviewed, etc.)
 
-* What
-Think about and discuss what type of constraints your team envisions, e.g. knowledge, technology, access to customers, etc? Constraints are important to know as they enable us to push ourselves to think even more creatively To inspire better thinking, we have to become more resourceful and work within limitations - what are the envisioned constraints and limitations?
+* The Golden Circle: Why?
+#+BEGIN_notes
+The driving force behind our Innovation
+
+Talking Points:
+- Deep dive into Simon Sinek's "Why," explaining the reason behind Project Nardo.
+- Elaboration on the identified problems and the desire to create an impactful solution.
+- Reflection on the motivation to express our ideas and transform the existing paradigm in DS/ML projects.
+#+END_notes
+
+
+* Envisioning Impact
+#+BEGIN_notes
+Changing our Current Reality
+
+Talking Points:
+- Detailing the envisioned impact of Project Nardo on the current reality of DS/ML projects.
+- Discussion on the expected advancements in project and data uniformity and simplification in pre-processing.
+- When we are done, the current chaotic and isolated early-stage data-centric projects will now be consolidated, streamlined, and more efficient.
+#+END_notes
+
+
+* Knowing our Audience
+#+BEGIN_notes
+Tailoring Solutions to Needs
+
+Talking Points:
+- Identifying and detailing the project's intended audience, including DS/ML practitioners, businesses, and academia.
+- Understanding the needs and preferences of the audience in terms of information access and consumption.
+- Discussion on how we plan to reach and appeal to our audience effectively.
+#+END_notes
+
+
+* Envisioned Constraints
+#+BEGIN_notes
+Pushing Creative Boundaries
+
+Talking Points:
+- Acknowledging the constraints we envisage, such as technology limitations, access to customers, and knowledge gaps.
+- Elaborating on how constraints drive creativity and innovation in our approach to solving problems.
+- Reflecting on the significance of working within limitations to conceive better and more robust solutions.
+#+END_notes
+
+
+* Path Forward with Codename Nardo
+#+BEGIN_notes
+A Journey towards Operational Excellence
+
+Talking Points:
+- Reiterating the significance and the innovative approach of Project Nardo in addressing DS/ML project challenges.
+- Expressing commitment towards achieving meaningful and substantial advancements in data-centric projects.
+#+END_notes
+
+
+
+# * Preliminary
+# Your capstone vlogs are all to be uploaded to YouTube (unlisted if your team prefers) with links to vlogs posted on your team's GitHub (and URCourses wiki) by the due date (timestamps will be confirmed). Your team's first vlog introduces your team's project to the world as per the guidelines below (your vlog should be a minimum of 5 minutes to a maximum of 10 minutes). Aside: Some of the content you use to create your vlog can also be used in various project documentation as well!
+
+# Due: Oct. 2, 2023, at 11:59 pm
+
+# * Team member introductions
+# Introduce who's on the team. If you know, discuss everyone's project roles and responsibilities (or as you envision them now)
+
+# * Project background & business need/opportunity
+# Here, your team should discuss information that will help the viewer (SSE faculty and the general public) understand the context and background history of your team's project. This discussion should assume that viewers are not well-versed (knowledgeable) regarding the background of the project or project area. You should also try to dive into the business need, opportunities/innovations that your team's project idea will introduce into the world, as well as what has been done to solve the problem already/innovate in the area and how your team is contributing to something different/new
+
+# * Reason
+# Before we start creating something, we need to know why we are creating. We create for many reasons, such as:
+
+# To solve a problem (This is the engineer's bread and butter)
+# Show someone our thinking
+# Express our ideas, feelings, or interpretations
+# Interpret information in a new way
+# Etc.
+# So think about and discuss your team's reason to create? It would also be good to dive into your team's "why" (i.e. your team's golden circle, aka Simon Sinek's "why", re: ENSE 374)
+
+# * Impact
+# Sometimes we can start with the impact we want to create - how will our project and the work we do on our project change our current reality, and how will we achieve this new reality, e.g. learning new tech, using class notes from Tim's classes...haha, etc.)? This helps us think more broadly while we are creating. To help discuss your project's impact, [fill in the details] and discuss the following statement in your vlog
+
+# When we are done [our current reality] will now be [our new reality] so we think we need to [action step]
+
+# * Who
+# When we know who we are creating for, our audience, our work is more meaningful, relevant and appropriate. So think about and discuss:
+
+# Who is your audience?
+# Whose opinion matters?
+# Who do you want to reach with your work?
+# Also, know/discuss where your audience is?
+# In the same room, city, province, across the globe?
+# Where do they get their information? (paper, digital, opinion, peer-reviewed, etc.)
+
+# * What
+# Think about and discuss what type of constraints your team envisions, e.g. knowledge, technology, access to customers, etc? Constraints are important to know as they enable us to push ourselves to think even more creatively To inspire better thinking, we have to become more resourceful and work within limitations - what are the envisioned constraints and limitations?
