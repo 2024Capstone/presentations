@@ -2,4 +2,7 @@
 #+Subtitle: ENSE400, University of Regina
 
 * Presentations
+
 - [[./proposal/proposal.html][Proposal]]
+
+- [[./vlog-1/vlog-1.html][Vlog 1]]
