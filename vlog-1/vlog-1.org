@@ -36,6 +36,12 @@ Talking Points:
 
 
 * Project Background
+- Data is reported from mutliple sources via:
+    - Excell speadsheets
+    - Power BI reports
+- Difficult to create reports or analyse data from different sources
+- Virtually impossible to perform data science or train ML models
+
 #+BEGIN_notes
 Identifying the Gaps in DS/ML Projects
 
@@ -64,6 +70,12 @@ Talking Points:
 
 
 * Envisioning Impact
+- Operators can easily get data on demand
+- Easy to use for any reporting use case:
+    - Live data for monitoring
+    - Reporting for traditional business analysis
+    - Data science for empowering data driven decisions
+    - ML models for predictive analysis
 #+BEGIN_notes
 Changing our Current Reality
 
@@ -86,6 +98,9 @@ Talking Points:
 
 
 * Envisioned Constraints
+- Expected data approval delays
+    - Mock data must be used for MVP 1
+
 #+BEGIN_notes
 Pushing Creative Boundaries
 
