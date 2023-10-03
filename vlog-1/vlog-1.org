@@ -117,15 +117,6 @@ Talking Points:
 #+END_notes
 
 
-* Path Forward with Codename Nardo
-#+BEGIN_notes
-A Journey towards Operational Excellence
-
-Talking Points:
-- Reiterating the significance and the innovative approach of Project Nardo in addressing DS/ML project challenges.
-- Expressing commitment towards achieving meaningful and substantial advancements in data-centric projects.
-#+END_notes
-
 
 
 # * Preliminary
