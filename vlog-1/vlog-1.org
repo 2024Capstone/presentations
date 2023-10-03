@@ -24,9 +24,9 @@ NASA, Public domain, via Wikimedia Commons
 
 
 * Meet the Team
-- Daniil Aleshechkin
-- Ben Hajdukiewicz
-- Adam Metz
+- Ben Hajdukiewicz (Team Lead, Full-stack Developer)
+- Daniil Aleshechkin (Full-stack Developer)
+- Adam Metz (Full-stack Developer)
 #+BEGIN_notes
 Roles and Responsibilities
 
