@@ -54,7 +54,7 @@ Talking Points:
 
 
 * The Golden Circle: Why?
-- Main business goal: Reduce water consumption
+- Main business goal: Reduce water consumption and cost per tonne, addressing significant environmental and economic concerns in operational processes.
 - Improve K+S business operations
     - Consolidate data sources
     - Streamline reporting
@@ -88,6 +88,7 @@ Talking Points:
 
 
 * Knowing our Audience
+- K+S Potash Canada
 - Support all existing reporting/ monitoring use cases
 - Enable new reports with the consolidated data
 - Design ML models for relevant predictions
