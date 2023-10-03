@@ -37,8 +37,8 @@ Talking Points:
 
 
 * Project Background
-- Data is reported from mutliple sources via:
-    - Excell speadsheets
+- Data is reported from multiple sources via:
+    - Excel speadsheets
     - Power BI reports
 - Difficult to create reports or analyse data from different sources
 - Virtually impossible to perform data science or train ML models
