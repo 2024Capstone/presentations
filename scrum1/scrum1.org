@@ -1,0 +1,91 @@
+#+Title: Scrum 1
+#+Subtitle: Codename 'Nardo'
+#+Subtitle: ENSE400, University of Regina
+#+Author: Ben Hajdukiewicz, Daniil Aleshechkin, Adam Metz
+# #+OPTIONS: num:nil
+# #+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+# #+OPTIONS: toc:nil
+
+* Project Reintroduction
+*Project Overview:* The  project aims to address critical challenges and opportunities in data science and data management within our organization. It involves developing a comprehensive management tool for data preprocessing, exploratory data analysis (EDA), and data management, with the goal of improving efficiency, data uniformity, and environmental sustainability.
+
+* Status Description
+*Current Status:* Green
+At this stage, the project is on track and progressing well. We have successfully completed the initial planning phase, including defining project goals and objectives, assessing risks, and creating a business case. We are now poised to fully move into the design and development phase.
+
+*Reasons for Green Status:*
+- Effective collaboration and communication within the team
+- Clear project objectives and alignment with business needs
+- Successful completion of initial project planning
+
+*Planned Actions:*
+- continue with the software design and development phase
+- continue regular communication and collaboration to ensure project goals are met
+
+** Individual Contributions
+*Ben:*
+- My primary contribution during the last sprint was developing the business documentation
+- During the last sprint, I focused on researching and selecting appropriate technologies for the project, such as Nix and AWS Datalake
+- I actively participated in team meetings and contributed to the project documentation
+
+*Daniil:*
+- played a key role in outlining the project's goals and objectives
+- engaged in discussions and provided input during team meetings to refine project goals and objectives
+- ...
+
+*Adam:*
+- played a key role in outlining the project's goals and objectives
+- contributed to the identification and assessment of potential risks in the project
+- played a key role in developing the lofi and hifi prototypes
+- provided insights into project planning
+- ...
+
+** Project Issues
+No significant project issues have been identified at this stage. We are actively monitoring and managing potential risks, as outlined in the risk management section of the project charter.
+
+** Project Changes
+No project changes have been approved.
+
+* Documentation Overview and/or Project Demo
+We have completed the tasks initially added to our kanban board.
+We are ready to move into the software design and development phase and will begin documenting our technical approach and architecture.
+
+* Next Up
+In the next several weeks, our team plans to:
+- continue the software design and development activities, including refining the architecture and technology stack.
+- continue refining project documentation, including the risk management plan.
+- initiate discussions about data integration from the client's datalake.
+
+* Individual Contributions for Next Meeting:
+*Ben:*
+- lead the discussions on selecting specific technologies and tools for our project's technical stack
+- lead discussions about data integration from the client's datalake
+- lead the documentation creation of the technical architecture for the project
+- lead processing framework development
+- contribute to refining the risk management plan
+- help in defining the software design approach
+
+*Daniil:*
+- help in defining the software design approach
+- lead backend development
+- lead client requirements gathering
+- ...
+
+*Adam:*
+- help in defining the software design approach
+- lead frontend development
+- continue to provide insights into project planning and risk management
+- ...
+
+* Team Reflection
+*On Track Status:* Yes, we are currently on track with a green status.
+
+*Progress to Feel Good About:* We feel good about successfully completing the tasks on our kanban board and aligning our project goals with business needs.
+
+*Barriers to Success:* Currently, there are no significant barriers to success. However, we are mindful of potential challenges related to technology adoption and data integration.
+
+*Help Required:* We don't require additional help at this stage, but we will seek guidance if challenges arise.
+
+*Questions/Concerns:*
+- What is the expectation of mentor involvement?
+- Which GitHub account do you want us to add as a contributor so you can see the project?
