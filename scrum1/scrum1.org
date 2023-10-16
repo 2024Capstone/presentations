@@ -22,7 +22,7 @@ At this stage, the project is on track and progressing well. We have successfull
 - continue with the software design and development phase
 - continue regular communication and collaboration to ensure project goals are met
 
-** Individual Contributions
+* Individual Contributions
 *Ben:*
 - My primary contribution during the last sprint was developing the business documentation
 - During the last sprint, I focused on researching and selecting appropriate technologies for the project, such as Nix and AWS Datalake
@@ -40,10 +40,10 @@ At this stage, the project is on track and progressing well. We have successfull
 - provided insights into project planning
 - ...
 
-** Project Issues
+* Project Issues
 No significant project issues have been identified at this stage. We are actively monitoring and managing potential risks, as outlined in the risk management section of the project charter.
 
-** Project Changes
+* Project Changes
 No project changes have been approved.
 
 * Documentation Overview and/or Project Demo
