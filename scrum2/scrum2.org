@@ -1,0 +1,84 @@
+#+Title: Scrum 2
+#+Subtitle: Codename 'Nardo'
+#+Subtitle: ENSE400, University of Regina
+#+Author: Ben Hajdukiewicz, Daniil Aleshechkin, Adam Metz
+# #+OPTIONS: num:nil
+# #+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+# #+OPTIONS: toc:nil
+
+* Reintroduction
+*Project Overview:* The  project aims to address critical challenges and opportunities in data science and data management within our organization. It involves developing a comprehensive management tool for data preprocessing, exploratory data analysis (EDA), and data management, with the goal of improving efficiency, data uniformity, and environmental sustainability.
+
+* Status
+<2023-11-06 Mon>
+
+Last scrum <2023-10-16 Mon>
+
+*Current Status:* Yellow
+
+At this stage, the project is progressing but at a reduced rate.
+# Mostly due to midterms in the weeks after the return from the fall break.
+
+*Reasons for Status:*
+- Wanted to have front-end, backend, and a basic datalake integrated but we only got the parts up (with mocks) without the integration.
+
+*Planned Actions:*
+- continue with the software development phase
+- improve on regular communication and collaboration to ensure project goals are met
+
+* Progress
+*Ben:*
+- infrastructure as code development
+  - researching AWS SDK
+  - modeling processing framework using Smithy
+  - building AWS environment
+- ...
+
+*Daniil:*
+- Backend development of key endpoints
+- ...
+
+*Adam:*
+- Frontend development of user interface
+- Preparing frontend for integration with backend
+- ...
+
+* Issues
+No significant project issues have been identified at this stage. We are actively monitoring and managing potential risks, as outlined in the risk management section of the project charter.
+
+* Scope Changes
+- No PowerBI report creation
+# * Next Up
+# - continue refining project documentation,
+# - ...
+
+* Planned Progress
+*Ben:*
+- set up MVP1 user testing sessions
+- continue with infra and processing framework
+- ...
+
+*Daniil:*
+- lead backend development
+- ...
+
+*Adam:*
+- lead frontend development
+  - Use Case list page 
+- work with Daniil to integrate frontend with backend endpoints
+- ...
+
+* Team Reflection
+*On Status:* We are currently yellow status.
+
+*Progress to Feel Good About:* Lots of progress has been made on the backend & frontend development for the website.
+
+*Barriers to Success:* Currently, we need to ensure we have alignment on project roadmap.
+
+*Help Required:* We don't require additional help at this stage, but we will seek guidance if challenges arise.
+
+*Questions/Concerns:*
+- What is the expectation of mentor involvement?
+- Which GitHub account do you want us to add as a contributor so you can see the project?
+
+* Demo
