@@ -1,0 +1,73 @@
+#+Title: Scrum 2
+#+Subtitle: Codename 'Nardo'
+#+Subtitle: ENSE400, University of Regina
+#+Author: Ben Hajdukiewicz, Daniil Aleshechkin, Adam Metz
+# #+OPTIONS: num:nil
+# #+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+# #+OPTIONS: toc:nil
+
+* Project Reintroduction
+*Project Overview:* The  project aims to address critical challenges and opportunities in data science and data management within our organization. It involves developing a comprehensive management tool for data preprocessing, exploratory data analysis (EDA), and data management, with the goal of improving efficiency, data uniformity, and environmental sustainability.
+
+* Status Description
+<2023-11-06 Mon>
+*Current Status:* Yellow
+At this stage, the project is progressing but at a reduced rate. Mostly due to midterms in the weeks after the return from the fall break.
+
+*Reasons for Status:*
+- Midterms
+- ...
+
+
+*Planned Actions:*
+- continue with the software development phase
+- improve on regular communication and collaboration to ensure project goals are met
+
+* Individual Contributions
+*Ben:*
+- ...
+
+*Daniil:*
+- ...
+
+*Adam:*
+- ...
+
+* Project Issues
+No significant project issues have been identified at this stage. We are actively monitoring and managing potential risks, as outlined in the risk management section of the project charter.
+
+* Project Scope Changes
+No scope changes identified since last Scrum.
+
+* Documentation Overview and/or Project Demo
+Demo
+
+* Next Up
+In the next several weeks, our team plans to:
+- continue refining project documentation,
+- ...
+
+* Individual Contributions for Next Meeting:
+*Ben:*
+- ...
+
+*Daniil:*
+- lead backend development
+- ...
+
+*Adam:*
+- lead frontend development
+- ...
+
+* Team Reflection
+*On Status:* We are currently yellow status.
+
+*Progress to Feel Good About:* Lots of progress has been made on the front end development.
+
+*Barriers to Success:* Currently, we need to ensure we have alignment on project roadmap.
+
+*Help Required:* We don't require additional help at this stage, but we will seek guidance if challenges arise.
+
+*Questions/Concerns:*
+- What is the expectation of mentor involvement?
+- Which GitHub account do you want us to add as a contributor so you can see the project?
