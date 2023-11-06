@@ -6,3 +6,7 @@
 - [[./proposal/proposal.html][Proposal]]
 
 - [[./vlog-1/vlog-1.html][Vlog 1]]
+
+- [[./scrum-1/scrum-1.html][Scrum 1]]
+
+- [[./scrum-2/scrum-2.html][Scrum 2]]
