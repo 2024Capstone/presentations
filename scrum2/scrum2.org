@@ -20,7 +20,7 @@ At this stage, the project is progressing but at a reduced rate.
 # Mostly due to midterms in the weeks after the return from the fall break.
 
 *Reasons for Status:*
-- ...
+- Wanted to have front-end, backend, and a basic datalake integrated but we only got the parts up (with mocks) without the integration.
 
 *Planned Actions:*
 - continue with the software development phase
