@@ -47,8 +47,7 @@ At this stage, the project is progressing but at a reduced rate.
 No significant project issues have been identified at this stage. We are actively monitoring and managing potential risks, as outlined in the risk management section of the project charter.
 
 * Scope Changes
-No scope changes identified since last Scrum.
-
+- No PowerBI report creation
 # * Next Up
 # - continue refining project documentation,
 # - ...
