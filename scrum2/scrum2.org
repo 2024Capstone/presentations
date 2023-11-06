@@ -38,7 +38,7 @@ At this stage, the project is progressing but at a reduced rate. Mostly due to m
 
 *Adam:*
 - Frontend development of user interface
-- Integration of frontend and backend
+- Preparing frontend for integration with backend
 - ...
 
 * Issues
@@ -64,12 +64,14 @@ Demo
 
 *Adam:*
 - lead frontend development
+  - Use Case list page 
+- work with Daniil to integrate frontend with backend endpoints
 - ...
 
 * Team Reflection
 *On Status:* We are currently yellow status.
 
-*Progress to Feel Good About:* Lots of progress has been made on the front end development.
+*Progress to Feel Good About:* Lots of progress has been made on the backend & frontend development for the website.
 
 *Barriers to Success:* Currently, we need to ensure we have alignment on project roadmap.
 
