@@ -1,0 +1,80 @@
+#+Title: Capstone Introduction
+#+Subtitle: Codename 'Nardo'
+#+Subtitle: ENSE400, University of Regina
+#+Author: Ben Hajdukiewicz, Daniil Aleshechkin, Adam Metz
+# #+OPTIONS: num:nil
+# #+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+# #+OPTIONS: toc:nil
+
+* Intros
+
+* Goal
+*Address Management Difficulties in DS/ML Projects:*
+- Track and manage the early stages of data-centric projects,
+  - including data preprocessing and EDA
+- Address the challenge of managing data from multiple sources
+- Enhanced manageability of data-centric projects
+
+
+* What
+- Develop a Comprehensive Management Tool
+- Eliminate Early Stage Complications and duplication of work
+- Enhance Data Uniformity
+- Success Metrics
+
+#+BEGIN_notes
+- construct a management tool that exclusively emphasizes the pre-processing, explorative, and coding components of data science projects, ensuring thorough tracking and management of the early stages of such projects.
+
+- obviate the need for per-project R and Python notebooks for the early stages of projects, mitigating the duplication of work and promoting uniformity in project structure and data handling,
+- thus facilitating faster project initiation.
+
+- focusing on consolidating and normalizing data where possible, the tool will streamline the selection of data for downstream tasks such as explorative data analysis and visualization, and potentially training and testing in future iterations.
+
+- a successful MVP will demonstrate substantial advancements in project and data uniformity, and the simplification in the pre-processing process and data selection for downstream tasks, leading to more streamlined and efficient exploratory data analysis.
+#+END_notes
+
+
+* Assumptions
+- Project cannot be public
+
+*MVP1*
+- production data will not be used initially
+
+
+*MVP2*
+- data lake is already implemented
+
+
+* Questions
+- What is the architecture of the data lake?
+  - how is ingestion managed?
+
+
+* MVP 1 Roadmap
+
+- Stakeholder Engagement and Requirement Gathering
+    SCHEDULED: <2023-10-09 Mon>
+
+- Define Critical Metrics and User Stories
+    SCHEDULED: <2023-10-16 Mon>
+
+- Iterative User Testing Prep
+    SCHEDULED: <2023-11-01 Wed>
+
+- Initial Prototype Complete
+    SCHEDULED: <2023-11-15 Wed>
+
+- MVP 1 Demonstration
+    SCHEDULED: <2023-12-13 Wed>
+
+
+* MVP 2 Roadmap
+
+- MVP 2 Work Starts
+    SCHEDULED: <2024-01-01 Mon>
+
+- MVP 2 Demonstration
+    SCHEDULED: <2024-03-20 Wed>
+
+* Path Forward
+- tackled in the coming week(s)

@@ -5,8 +5,14 @@
 
 - [[./proposal/proposal.html][Proposal]]
 
-- [[./vlog-1/vlog-1.html][Vlog 1]]
+- [[./vlog1/vlog1.html][Vlog 1]]
 
-- [[./scrum-1/scrum-1.html][Scrum 1]]
+- [[./intros/intro.html][KSPC Intro]]
 
-- [[./scrum-2/scrum-2.html][Scrum 2]]
+- [[./scrum1/scrum1.html][Srcum 1]]
+
+- [[./scrum2/scrum2.html][Srcum 2]]
+
+- [[./bazaar/bazaar.html][Srcum 2]]
+
+- [[./vlog2/vlog2.html][Vlog 2]]

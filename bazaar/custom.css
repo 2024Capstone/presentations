@@ -1,0 +1,45 @@
+.reveal h1 {
+  font-size: 70px;
+}
+
+.reveal p {
+  font-size: 25px;
+  text-align: left;
+}
+
+.reveal ul {
+  font-size: 25px;
+  text-align: left;
+}
+
+.reveal li {
+  font-size: 25px;
+  text-align: left;
+}
+.reveal .slides {
+    text-align: left;
+}
+
+.reveal img {
+    max-width: 50%;
+    max-height: 50%;
+}
+
+img[src="./arch.png"] {
+  /* position: float; */
+  /* right: 0; */
+  width: 120% !important;
+  /* height: auto; */
+}
+
+.reveal img, .reveal video, .reveal iframe {
+    max-width: 95%;
+    max-height: 95%;
+}
+
+img[src="./logo.svg"] {
+  position: fixed;
+  right: 0;
+  width: 30% !important;
+  height: auto;
+}

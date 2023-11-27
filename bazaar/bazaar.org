@@ -1,0 +1,34 @@
+#+Title: Bazaar Day
+#+Subtitle: Codename 'Nardo'
+#+Subtitle: ENSE400, University of Regina
+#+Author: Ben Hajdukiewicz, Daniil Aleshechkin, Adam Metz
+# #+OPTIONS: num:nil
+# #+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+# #+OPTIONS: toc:nil
+
+* Reintroduction
+
+*Client:* K + S Potash Canada, a potash solution mine just north of Regina, SK
+
+*Project Overview:* The  project aims to address critical challenges and opportunities that come with having an huge amount of data without any process of managing it.
+
+*Primary Focus:* Provide a self-serve tool to query a data lake and do simple analysis.
+
+*Why:* Operational Excellence project to discover ways to analyze data leading to decreased raw water consumption and increased operational efficiency.
+
+[[file:./logo.svg]]
+
+
+* Architecture
+[[file:./arch.png]]
+
+
+* [[http://localhost:45139][Demo]]
+
+*Usecase Title:* Process pump pressure
+
+*Usecase Desc:* A process engineer would like to know the rolling mean of the exit pressure of a process pump.
+
+*Tags:* TAG-PP-12345
+
+*Analysis Type:* Rolling mean
