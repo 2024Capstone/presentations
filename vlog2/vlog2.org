@@ -11,29 +11,148 @@
 # #+REVEAL_INIT_OPTIONS: showNotes: true
 
 
-# * Codename Nardo
-# #+BEGIN_notes
-# Addressing Operational Challenges in DS/ML Projects
+* Codename Nardo
+#+BEGIN_notes
+Addressing Operational Challenges in DS/ML Projects
 
-# Talking Points:
-# - Brief introduction of the project, Codename Nardo.
-# - Mentioning the essence of addressing complications in the initial stages of data science projects.
-# #+END_notes
+Talking Points:
+- Brief introduction of the project, Codename Nardo.
+- Mentioning the essence of addressing complications in the initial stages of data science projects.
+#+END_notes
 
-# [[./nardo.jpg]]
+[[./nardo.jpg]]
 
-# NASA, Public domain, via Wikimedia Commons
+NASA, Public domain, via Wikimedia Commons
 
 
-# * Meet the Team
+* Meet the Team
+#+BEGIN_notes
+*Roles and Responsibilities*
 
-# - Ben Hajdukiewicz (Team Lead, Full-stack Developer)
-# - Daniil Aleshechkin (Full-stack Developer)
-# - Adam Metz (Full-stack Developer)
-# #+BEGIN_notes
-# Roles and Responsibilities
+Talking Points:
+- Introduce each team member with their envisioned roles and responsibilities.
+- Briefly describe the unique skill set each member brings to the project.
+#+END_notes
 
-# Talking Points:
-# - Introduce each team member with their envisioned roles and responsibilities.
-# - Briefly describe the unique skill set each member brings to the project.
-# #+END_notes
+- Ben Hajdukiewicz (Team Lead, Full-stack Developer)
+- Daniil Aleshechkin (Full-stack Developer)
+- Adam Metz (Full-stack Developer)
+
+
+* Activities
+#+BEGIN_notes
+*Notes*
+Talking Points:
+-
+#+END_notes
+
+
+* Status
+#+BEGIN_notes
+*Notes*
+Talking Points:
+-
+#+END_notes
+
+
+* Issues
+#+BEGIN_notes
+*Notes*
+Talking Points:
+-
+#+END_notes
+
+
+* Changes
+#+BEGIN_notes
+*Notes*
+Talking Points:
+-
+#+END_notes
+
+
+* Demo
+#+BEGIN_notes
+*Notes*
+Talking Points:
+-
+#+END_notes
+
+
+* Next Up
+#+BEGIN_notes
+*Notes*
+Talking Points:
+-
+#+END_notes
+
+
+* Retrospective
+#+BEGIN_notes
+*Notes*
+Talking Points:
+-
+#+END_notes
+
+
+#+BEGIN_notes
+* Preliminary
+
+Your capstone vlogs are all to be uploaded to YouTube (unlisted if your team prefers) and posted on your team's GitHub by the due date (timestamps will be confirmed). This team vlog will reintroduce your team and selected projects to the world and discuss your progress thus far as per the guidelines below. With respect to vlog duration, think a minimum of 8 minutes to a maximum of 15 minutes in length.
+
+Due: Dec.4, 2023, @ 11:59 pm
+
+* Team member (re)introductions
+
+(Re)Introduce the team and (re)state roles and responsibilities (if they have changed or stayed the same)
+
+* Brief project blurb
+
+Briefly restate what your team is doing, the business needs and/or the opportunity/innovation that your team's project idea will introduce into the world
+
+* Project activity dates
+
+From Vlog 1 to now
+
+* Project activity
+
+State all project activity for the specified dates. Ensure team members individually speak to their contributions over the stated dates. What did everyone do to contribute to where the project is at?
+
+Note: I want to hear (and hopefully see in the video) team members in the video (this is about professionalism here folks)
+
+* Status description
+
+As a team, provide an overview of the project’s current status (green=good, yellow=sligthly off track, red=off track). If the status is yellow or red, indicate:
+
+ - The reason(s) that the status is yellow or red
+ - The planned action(s) that will bring the project back to a green status.
+
+* Project issues
+
+List any issues from the Issue Log that are significant and should be shared with the audience of this report. If any related work has been done or decisions have been made, a summary should be provided. Ensure to address any comments that came up in the previous scrum/meeting time.
+
+* Project changes
+
+List any project changes that were approved since the last vlog, team/instructor scrum, or project bazaar day
+
+* Documentation overview and/or project demo
+
+Outline key research and analysis from initial project planning work. Demo what ya got working as-is if applicable.
+
+* Next up
+
+Discuss your team's plan for the next several weeks with respect to software design and development activities. Discuss the overall team plan but also (again), team members must individually speak to their contributions that are planned by the next meeting (regardless if it is a project bazaar day, vlog, or team/instructor scrum)
+
+* Retrospective
+
+Discuss and reflect on the team's choices and progress in ENSE 400. What went well? What could be improved? What will the team commit to continue or change in ENSE 477?
+
+* Team reflection
+
+** Discuss:
+- Does the team feel "on track"? (reiterate the above colour status)
+- What progress does the team particularly feel good (great) about?
+- What barriers (if any) does the team feel are a current impediment to success?
+- What help (if any) does the team require to move positively forward?
+- What questions or concerns does the team have (if any)?
+#+END_notes
