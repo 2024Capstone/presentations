@@ -37,17 +37,18 @@ Talking Points:
 - Daniil Aleshechkin (Full-stack Developer)
 - Adam Metz (Full-stack Developer)
 
-* Brief Project Reintroduction
+* The Project
 #+BEGIN_notes
 #+END_notes
 
-*Client:* K + S Potash Canada, a potash solution mine just north of Regina, SK
+*Client:* K+S Potash Canada, a potash solution mine just north of Regina, SK
 
 *Project Overview:* The  project aims to address critical challenges and opportunities that come with having an huge amount of data without any process of managing it.
 
-*Primary Focus:* Provide a self-serve tool to query a data lake and do simple analysis.
+*Primary Focus:* Provide a self-serve application to query a data lake and do simple analysis. Deployed across AWS services (EC2, ECS/ECR, SQS, Datalake).
 
 *Why:* Operational Excellence project to discover ways to analyze data leading to decreased raw water consumption and increased operational efficiency.
+
 
 * Activities
 #+BEGIN_notes
@@ -113,10 +114,12 @@ Talking Points:
 #+END_notes
 
 
-* Next Up
+# * Next Up
+* Plan for Cultivator Demo
+<2024-01-08 Mon> or <2024-01-15 Mon>
 #+BEGIN_notes
 *Focus on Integration and Testing*
-Over the next few weeks, our team will concentrate on integrating the various components we've developed. We'll be rigorously testing the system to ensure stability and performance under different scenarios.
+Over the coming weeks, our team will concentrate on integrating the components we've developed. We'll be rigorously testing the system to ensure stability and performance under different scenarios.
 
 *User Experience Enhancement*
 Another key area we'll be working on is enhancing the user experience. This includes refining the UI/UX design and improving navigation and accessibility within our application based on user feedback from user testing.
@@ -125,9 +128,11 @@ Another key area we'll be working on is enhancing the user experience. This incl
 We also plan to assess and enhance the scalability and security aspects of our application, ensuring it can handle increased load and protect user data effectively.
 #+END_notes
 
-- /Integration and Comprehensive Testing/: Ensuring system stability and performance
-- /Enhancing User Experience/: Refining UI/UX and improving navigation and presentation
-- /Scalability and Security/: Upgrading system to handle increased loads and bolster security
+ - /Begin Datalake Integration/: Swap DynamoDB with simplified Datalake
+ - /Comprehensive Testing/: Ensuring system stability and performance
+ - /Enhancing User Experience/: Refining UI/UX and improving navigation and presentation
+ - /Scalability and Security/: Upgrading system to handle increased loads and bolster security
+ - /Data Governance Compliance/: Align policies with Client's data governance and compliance policies
 
 # ** Individual Contributions
 #+BEGIN_notes
@@ -150,8 +155,10 @@ I'll also be contributing to our testing efforts, particularly focusing on backe
  - /New Functionality/: Table pagination, dynamic table updating, table sorting, and feedback to user actions
 
 *Ben*
+ - /Datalake Infrastructure/: Begin Datalake integration
  - /Backend Infrastructure/: Enhance scalability and reliability
- - /Security Measures/: Implement advanced security protocols for data protection
+ - /Security Measures/: Implement IAMs and Datalake permissions
+ - /Governance/: Requirements gathering and implementation of policies
 
 *Dan*
  - /API Optimization/: Refine endpoints for performance
