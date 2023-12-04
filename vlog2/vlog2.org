@@ -83,8 +83,8 @@ Talking Points:
 -
 #+END_notes
 
-- Green
-- Rationale
+*Green*
+ - finished planned implementation of queue service and DynamoDB for Bazaar Day
  - Although we still have a lot of work to be done, we have a good plan going forward for what needs to be done, and we have a reasonable amount of time to do so
 
 * Project Issues & Changes
