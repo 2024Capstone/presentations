@@ -24,7 +24,6 @@ Talking Points:
 
 NASA, Public domain, via Wikimedia Commons
 
-
 * Meet the Team
 #+BEGIN_notes
 *Roles and Responsibilities*
@@ -38,6 +37,17 @@ Talking Points:
 - Daniil Aleshechkin (Full-stack Developer)
 - Adam Metz (Full-stack Developer)
 
+* Brief Project Reintroduction
+#+BEGIN_notes
+#+END_notes
+
+*Client:* K + S Potash Canada, a potash solution mine just north of Regina, SK
+
+*Project Overview:* The  project aims to address critical challenges and opportunities that come with having an huge amount of data without any process of managing it.
+
+*Primary Focus:* Provide a self-serve tool to query a data lake and do simple analysis.
+
+*Why:* Operational Excellence project to discover ways to analyze data leading to decreased raw water consumption and increased operational efficiency.
 
 * Activities
 #+BEGIN_notes
@@ -62,9 +72,10 @@ Talking Points:
 
 *Adam*
  - Led frontend development and user interface design
+ - Lo-Fi & Hi-Fi Prototyping 
  - Implemented frontend using React & Tailwind CSS
- - Helped integrate frontend with backend endpoints
  - Key contributor to the use case submission and view use cases page
+ - Helped integrate frontend with backend endpoints
 
 *Ben*
  - Laid the foundation for backend and infrastructure
@@ -76,7 +87,6 @@ Talking Points:
  - Added endpoints for use-case submission and data handling
  - Key role in data integrity and backend efficiency improvements
 
-
 * Status
 #+BEGIN_notes
 *Notes*
@@ -85,20 +95,14 @@ Talking Points:
 #+END_notes
 
 
-* Issues
+* Project Issues & Changes
 #+BEGIN_notes
 *Notes*
 Talking Points:
 -
 #+END_notes
 
-
-* Changes
-#+BEGIN_notes
-*Notes*
-Talking Points:
--
-#+END_notes
+ - No issues or changes to project scope/direction have been made since the last activity date (Bazaar Day)
 
 
 * Demo
@@ -143,7 +147,7 @@ I'll also be contributing to our testing efforts, particularly focusing on backe
 *Adam*
  - /Frontend Development/: Incorporate user feedback to improve interface
  - /Improve & Refactor/: Look to make improvements where necessary in the existing frontend design and code
- - /New Functionality/: Table pagination, dynamic table updating, feedback to user actions
+ - /New Functionality/: Table pagination, dynamic table updating, table sorting, and feedback to user actions
 
 *Ben*
  - /Backend Infrastructure/: Enhance scalability and reliability
@@ -171,6 +175,18 @@ Talking Points:
 -
 #+END_notes
 
+* Team Reflection
+#+BEGIN_notes
+*Notes*
+Talking Points:
+-
+#+END_notes
+
+- Does the team feel "on track"?
+- What progress does the team particularly feel good (great) about?
+- What barriers (if any) does the team feel are a current impediment to success?
+- What help (if any) does the team require to move positively forward?
+- What questions or concerns does the team have (if any)?
 
 * Notes
 #+BEGIN_notes
