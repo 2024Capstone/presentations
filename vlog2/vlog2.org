@@ -103,12 +103,18 @@ Talking Points:
 -
 #+END_notes
 
- - No issues or changes to project scope/direction have been made since the last activity date (Bazaar Day)
+# this is issues/changes since last vlog
+ - local AWS implementation, integration to come in new year
+ - reduced number of analysis types
+ - delay completing internal project documentation
+ - delay the Datalake implementation to align with Client's timing
 
 
 * Demo
 #+BEGIN_notes
-*Notes*
+=Documentation overview and/or project demo=
+Outline key research and analysis from initial project planning work. Demo what ya got working as-is if applicable.
+
 Talking Points:
 -
 #+END_notes
@@ -177,7 +183,9 @@ I'll also be contributing to our testing efforts, particularly focusing on backe
 
 * Retrospective
 #+BEGIN_notes
-*Notes*
+=Retrospective=
+Discuss and reflect on the team's choices and progress in ENSE 400. What went well? What could be improved? What will the team commit to continue or change in ENSE 477?
+
 Talking Points:
 -
 #+END_notes
