@@ -41,10 +41,39 @@ Talking Points:
 
 * Activities
 #+BEGIN_notes
-*Notes*
-Talking Points:
--
+*Ben*
+- Focused on laying the foundation for our project's backend and infrastructure. Initiating the infrastructure and integrating DynamoDB and SQS into our stack were some of my key contributions. These elements were crucial in setting up a robust and scalable backend.
+- My work on integrating the localstack-pro image and updating Docker images was aimed at ensuring operational efficiency and reliability. These efforts were vital for maintaining the smooth running of our application.
+- Throughout the project, I was actively involved in backend development, ensuring that our application has a strong and stable foundation.
+- Optimizing our infrastructure and backend processes, which has been essential in bringing our project to its current state of advanced functionality.
+
+*Adam*
+- Focused on developing the frontend and user interface. Connecting the frontend to various endpoints was a significant part of my work, ensuring that our users have a seamless experience when interacting with our application."
+- I focused on enhancing user experience, evident in my work on updating the form page to support the chaining of analysis types. This feature was intended to improve the usability and analytical capabilities of our application.
+- Contributing to the 'view use cases' page was a major milestone. This feature not only added a critical component to our application but also allowed me to demonstrate my ability to oversee a feature from its inception to successful integration.
+- Geared towards refining the frontend, improving the overall user experience, and making our application visually appealing and user-friendly.
+
+*Dan*
+- Focused on backend development, especially in creating and managing API endpoints. These endpoints are fundamental to our application’s functionality, handling data processing and user interactions efficiently.
+- Added various endpoints, including those for use-case submission, analysis types, and tag validation. My aim was to ensure robust data handling and integrity for the application.
+- One of my key contributions was connecting the submit form to the queue and managing database connections. This aspect of my work highlights my focus on data integrity and efficient backend handling.
+- Strengthening the backend, making it capable of handling complex tasks and user requests effectively.
 #+END_notes
+
+*Adam*
+ - Led frontend development and user interface design
+ - Enhanced user experience with form page updates and new features
+ - Key contributor to 'view use cases' page, improving user interaction
+
+*Ben*
+ - Laid the foundation for backend and infrastructure
+ - Integrated DynamoDB and SQS; focused on operational efficiency
+ - Led backend development for application stability and functionality
+
+*Dan*
+ - Focused on backend development, creating and managing API endpoints
+ - Added endpoints for use-case submission and data handling
+ - Key role in data integrity and backend efficiency improvements
 
 
 * Status
@@ -81,10 +110,56 @@ Talking Points:
 
 * Next Up
 #+BEGIN_notes
-*Notes*
-Talking Points:
--
+*Focus on Integration and Testing*
+Over the next few weeks, our team will concentrate on integrating the various components we've developed. We'll be rigorously testing the system to ensure stability and performance under different scenarios.
+
+*User Experience Enhancement*
+Another key area we'll be working on is enhancing the user experience. This includes refining the UI/UX design and improving navigation and accessibility within our application.
+
+*Scalability and Security*
+We also plan to assess and enhance the scalability and security aspects of our application, ensuring it can handle increased load and protect user data effectively.
 #+END_notes
+
+- /Integration and Comprehensive Testing/: Ensuring system stability and performance
+- /Enhancing User Experience/: Refining UI/UX and improving navigation and presentation
+- /Scalability and Security/: Upgrading system to handle increased loads and bolster security
+
+# ** Individual Contributions
+#+BEGIN_notes
+=Adam=
+My primary focus will be on the frontend. I'll be implementing user feedback we've received to improve the interface and overall user journey.
+I will also be working on adding more interactive elements to the application, aiming to create a more engaging and intuitive user experience.
+
+=Ben=
+I will focus on enhancing the backend infrastructure for better scalability and reliability. This includes optimizing our database interactions and ensuring our server architecture can handle higher loads efficiently.
+Additionally, I'll work on implementing more comprehensive security measures to protect our data and user information.
+
+=Dan=
+I plan to concentrate on refining the API endpoints for better performance and reliability. This includes optimizing the code and ensuring smooth integration with the frontend.
+I'll also be contributing to our testing efforts, particularly focusing on backend tests to validate our data processing and storage mechanisms.
+#+END_notes
+
+*Adam*
+ - /Frontend Development/: Incorporate user feedback to improve interface
+ - /Interactive Elements/: Create a more engaging user experience
+
+*Ben*
+ - /Backend Infrastructure/: Enhance scalability and reliability
+ - /Security Measures/: Implement advanced security protocols for data protection
+
+*Dan*
+ - /API Optimization/: Refine endpoints for performance
+ - /Backend Testing/: Ensure robust data processing and storage
+
+# ** Coordination and Goals
+*Coordination and Goals*
+#+BEGIN_notes
+=Team Coordination=: All these efforts will be synchronized regularly through team meetings and collaborative tools to ensure we're aligned and making consistent progress towards our goals.
+*Next Meeting*: By our next meeting, we aim to have made significant progress in these areas, with a focus on presenting a more polished and robust version of our application.
+#+END_notes
+
+ - /Regular Team Sync/: Ensure alignment and consistent progress
+ - /Aim for Next Meeting/: Present a polished and robust application version
 
 
 * Retrospective
@@ -95,61 +170,52 @@ Talking Points:
 #+END_notes
 
 
+* Notes
 #+BEGIN_notes
-* Preliminary
-
+=Preliminary=
 Your capstone vlogs are all to be uploaded to YouTube (unlisted if your team prefers) and posted on your team's GitHub by the due date (timestamps will be confirmed). This team vlog will reintroduce your team and selected projects to the world and discuss your progress thus far as per the guidelines below. With respect to vlog duration, think a minimum of 8 minutes to a maximum of 15 minutes in length.
 
 Due: Dec.4, 2023, @ 11:59 pm
 
-* Team member (re)introductions
-
+=Team member (re)introductions=
 (Re)Introduce the team and (re)state roles and responsibilities (if they have changed or stayed the same)
 
-* Brief project blurb
-
+=Brief project blurb=
 Briefly restate what your team is doing, the business needs and/or the opportunity/innovation that your team's project idea will introduce into the world
 
-* Project activity dates
-
+=Project activity dates=
 From Vlog 1 to now
 
-* Project activity
-
+=Project activity=
 State all project activity for the specified dates. Ensure team members individually speak to their contributions over the stated dates. What did everyone do to contribute to where the project is at?
 
 Note: I want to hear (and hopefully see in the video) team members in the video (this is about professionalism here folks)
 
-* Status description
-
+=Status description=
 As a team, provide an overview of the project’s current status (green=good, yellow=sligthly off track, red=off track). If the status is yellow or red, indicate:
 
  - The reason(s) that the status is yellow or red
  - The planned action(s) that will bring the project back to a green status.
 
-* Project issues
-
+=Project issues=
 List any issues from the Issue Log that are significant and should be shared with the audience of this report. If any related work has been done or decisions have been made, a summary should be provided. Ensure to address any comments that came up in the previous scrum/meeting time.
 
-* Project changes
-
+=Project changes=
 List any project changes that were approved since the last vlog, team/instructor scrum, or project bazaar day
 
-* Documentation overview and/or project demo
-
+=Documentation overview and/or project demo=
 Outline key research and analysis from initial project planning work. Demo what ya got working as-is if applicable.
 
-* Next up
+=Next up=
+Discuss your team's plan for the next several weeks with respect to software design and development activities. Discuss the overall team plan but also (again), team members must individually speak to their contributions that are planned by the next meeting.
 
-Discuss your team's plan for the next several weeks with respect to software design and development activities. Discuss the overall team plan but also (again), team members must individually speak to their contributions that are planned by the next meeting (regardless if it is a project bazaar day, vlog, or team/instructor scrum)
+(regardless if it is a project bazaar day, vlog, or team/instructor scrum)
 
-* Retrospective
-
+=Retrospective=
 Discuss and reflect on the team's choices and progress in ENSE 400. What went well? What could be improved? What will the team commit to continue or change in ENSE 477?
 
-* Team reflection
-
-** Discuss:
+=Team reflection=
+=Discuss=:
 - Does the team feel "on track"? (reiterate the above colour status)
 - What progress does the team particularly feel good (great) about?
 - What barriers (if any) does the team feel are a current impediment to success?
