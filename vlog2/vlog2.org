@@ -83,6 +83,9 @@ Talking Points:
 -
 #+END_notes
 
+*Green*
+ - finished planned implementation of queue service and DynamoDB for Bazaar Day
+ - Although we still have a lot of work to be done, we have a good plan going forward for what needs to be done, and we have a reasonable amount of time to do so
 
 * Project Issues & Changes
 #+BEGIN_notes
@@ -198,6 +201,16 @@ Talking Points:
  - What questions or concerns does the team have (if any)?
 #+END_notes
 
+ - Does the team feel "on track"?
+  - Green Status
+ - What progress does the team particularly feel good (great) about?
+  - Lots of work completed by every member, and lots learned (React & AWS for example)
+ - What barriers (if any) does the team feel are a current impediment to success?
+  - Client's datalake implementation is moving slower than anticipated, but it's not too much of a barrier currently
+ - What help (if any) does the team require to move positively forward?
+  - No help currently needed
+ - What questions or concerns does the team have (if any)?
+  - No questions currently
 
 * Notes
 #+BEGIN_notes
