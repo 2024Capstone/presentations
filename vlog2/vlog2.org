@@ -62,8 +62,9 @@ Talking Points:
 
 *Adam*
  - Led frontend development and user interface design
- - Enhanced user experience with form page updates and new features
- - Key contributor to 'view use cases' page, improving user interaction
+ - Implemented frontend using React & Tailwind CSS
+ - Helped integrate frontend with backend endpoints
+ - Key contributor to the use case submission and view use cases page
 
 *Ben*
  - Laid the foundation for backend and infrastructure
@@ -114,7 +115,7 @@ Talking Points:
 Over the next few weeks, our team will concentrate on integrating the various components we've developed. We'll be rigorously testing the system to ensure stability and performance under different scenarios.
 
 *User Experience Enhancement*
-Another key area we'll be working on is enhancing the user experience. This includes refining the UI/UX design and improving navigation and accessibility within our application.
+Another key area we'll be working on is enhancing the user experience. This includes refining the UI/UX design and improving navigation and accessibility within our application based on user feedback from user testing.
 
 *Scalability and Security*
 We also plan to assess and enhance the scalability and security aspects of our application, ensuring it can handle increased load and protect user data effectively.
@@ -141,7 +142,8 @@ I'll also be contributing to our testing efforts, particularly focusing on backe
 
 *Adam*
  - /Frontend Development/: Incorporate user feedback to improve interface
- - /Interactive Elements/: Create a more engaging user experience
+ - /Improve & Refactor/: Look to make improvements where necessary in the existing frontend design and code
+ - /New Functionality/: Table pagination, dynamic table updating, feedback to user actions
 
 *Ben*
  - /Backend Infrastructure/: Enhance scalability and reliability
