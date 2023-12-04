@@ -10,20 +10,6 @@
 # #+REVEAL_PLUGINS: (notes)
 # #+REVEAL_INIT_OPTIONS: showNotes: true
 
-
-* Codename Nardo
-#+BEGIN_notes
-Addressing Operational Challenges in DS/ML Projects
-
-Talking Points:
-- Brief introduction of the project, Codename Nardo.
-- Mentioning the essence of addressing complications in the initial stages of data science projects.
-#+END_notes
-
-[[./nardo.jpg]]
-
-NASA, Public domain, via Wikimedia Commons
-
 * Meet the Team
 #+BEGIN_notes
 *Roles and Responsibilities*
@@ -36,6 +22,7 @@ Talking Points:
 - Ben Hajdukiewicz (Team Lead, Full-stack Developer)
 - Daniil Aleshechkin (Full-stack Developer)
 - Adam Metz (Full-stack Developer)
+
 
 * The Project
 #+BEGIN_notes
@@ -88,6 +75,7 @@ Talking Points:
  - Added endpoints for use-case submission and data handling
  - Key role in data integrity and backend efficiency improvements
 
+
 * Status
 #+BEGIN_notes
 *Notes*
@@ -120,7 +108,6 @@ Talking Points:
 #+END_notes
 
 
-# * Next Up
 * Plan for Cultivator Demo
 <2024-01-08 Mon> or <2024-01-15 Mon>
 #+BEGIN_notes
@@ -190,18 +177,17 @@ Talking Points:
 -
 #+END_notes
 
+
 * Team Reflection
 #+BEGIN_notes
-*Notes*
-Talking Points:
--
+=Discuss=:
+ - Does the team feel "on track"?
+ - What progress does the team particularly feel good (great) about?
+ - What barriers (if any) does the team feel are a current impediment to success?
+ - What help (if any) does the team require to move positively forward?
+ - What questions or concerns does the team have (if any)?
 #+END_notes
 
-- Does the team feel "on track"?
-- What progress does the team particularly feel good (great) about?
-- What barriers (if any) does the team feel are a current impediment to success?
-- What help (if any) does the team require to move positively forward?
-- What questions or concerns does the team have (if any)?
 
 * Notes
 #+BEGIN_notes
