@@ -1,0 +1,147 @@
+#+Title: Scrum 3
+#+Subtitle: Codename 'Nardo'
+#+Subtitle: ENSE400, University of Regina
+#+Author: Ben Hajdukiewicz, Daniil Aleshechkin, Adam Metz
+# #+OPTIONS: num:nil
+# #+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+# #+OPTIONS: toc:nil
+
+* Reintroduction
+*Project Client:* K + S Potash Canada
+
+*Client Challenge:* Huge amount of data with no means for aggregation, processing, exploration.
+
+*Project Overview:*
+The  project aims to address critical challenges and opportunities in data science and data management within the organization.
+
+*Goal:* Improve operational efficiency, data uniformity, and environmental sustainability
+
+*How:* Create a management tool for data pre-processing, exploratory data analysis (EDA), and data management
+
+[[../vlog2/logo.svg]]
+
+* Scope
+*Creation of:*
+- web interface with SSO using Azure AD
+  - enter new use cases
+  - view existing use cases
+  - monitor processing jobs
+  - retrieve Power Bi query of processed data
+
+- processing pipeline
+- infrastructure on AWS
+  - VPC, EC2, S3, Load balancing, Reporting
+  - CloudFormation, ECS, ECR, SQS, SageMaker
+  - DataLake (currently using DynamoDB)
+
+- IAM Permission setup
+- CI/CD utilizing Localstack (both locally and in the cloud)
+- CI/CD utilizing AWS Services
+
+#+BEGIN_notes
+VPC - Virtual Private Cloud handles deployment/isolation of services across a network
+
+EC2 - Elastic Compute Cloud scalable virtual machine service
+
+S3 - Simple Storage Service is object storage/datalake backend
+
+Load Balancing - distribute multiple containers and balance traffic between them
+
+CloudFormation - deployment of AWS resources
+
+ECS - Elastic Container Service to deploy, manage, scale containers
+
+ECR - Elastic Container Registry is basically a repo for Docker/OCI images
+
+SQS - Simple Queue Service is a queue service
+
+SageMaker - ML environment with Notebooks (jupyter, etc.)
+#+END_notes
+
+
+* Architecture
+[[file:../bazaar/arch.png]]
+
+
+* Status
+<2024-01-15 Mon>
+
+Last scrum <2023-11-06 Mon>
+
+# *Current Status:* Green
+
+# At this stage, the project is progressing but at a slightly reduced rate.
+
+*Reasons for Status:*
+# -
+
+*Planned Actions:*
+- continue development of /MVP2/
+- revisit goals with Client to align with their new strategic roadmap
+
+
+* Progress
+*Ben:*
+- infrastructure as code development
+- optimized artifact caching -> 50% reduction in deploy time
+- upgraded CI/CD to Localstack 3
+- determining design patterns for processing framework
+
+*Daniil:*
+- business logic and infra to handle multiple analysis types
+- use case endpoint creation
+- endpoint URL deployment
+- additional DynamoDB tables
+
+*Adam:*
+- responsive navbar
+- responsive table
+- form page feedback component on submit
+- use case table pagination
+
+
+* Issues
+No significant project issues have been identified at this stage. We are actively monitoring and managing potential risks, as outlined in the risk management section of the project charter.
+
+
+* Scope Changes
+- Nothing significant ATM
+  - potentially some scope changes in /MVP3/
+
+# * Next Up
+# - continue refining project documentation,
+# - ...
+
+
+* Planned Progress
+*Ben:*
+- set up user testing sessions
+- continue with infra and processing framework
+
+*Daniil:*
+- lead backend development
+- ...
+
+*Adam:*
+- lead frontend development
+- work with Daniil to integrate frontend with backend endpoints
+- ...
+
+
+* Team Reflection
+*On Status:*
+# We are currently yellow status.
+
+*Progress to Feel Good About:*
+# Lots of progress has been made on the backend & frontend development for the website.
+
+*Barriers to Success:*
+# Currently, we need to ensure we have alignment on project roadmap.
+
+*Help Required:*
+# We don't require additional help at this stage, but we will seek guidance if challenges arise.
+
+*Questions/Concerns:*
+
+
+* Demo

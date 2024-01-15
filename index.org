@@ -13,6 +13,8 @@
 
 - [[./scrum2/scrum2.html][Srcum 2]]
 
-- [[./bazaar/bazaar.html][Srcum 2]]
+- [[./bazaar/bazaar.html][Bazaar Day]]
 
 - [[./vlog2/vlog2.html][Vlog 2]]
+
+- [[./scrum3/scrum3.html][Srcum 3]]
