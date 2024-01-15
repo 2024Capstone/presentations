@@ -6,6 +6,69 @@
 # #+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
 # #+OPTIONS: toc:nil
 
+# * Plan for Cultivator Demo
+# <2024-01-08 Mon> or <2024-01-15 Mon>
+# #+BEGIN_notes
+# *Focus on Integration and Testing*
+# Over the coming weeks, our team will concentrate on integrating the components we've developed. We'll be rigorously testing the system to ensure stability and performance under different scenarios.
+
+# *User Experience Enhancement*
+# Another key area we'll be working on is enhancing the user experience. This includes refining the UI/UX design and improving navigation and accessibility within our application based on user feedback from user testing.
+
+# *Scalability and Security*
+# We also plan to assess and enhance the scalability and security aspects of our application, ensuring it can handle increased load and protect user data effectively.
+# #+END_notes
+
+#  - /Begin Datalake Integration/: Swap DynamoDB with simplified Datalake
+#  - /Comprehensive Testing/: Ensuring system stability and performance
+#  - /Enhancing User Experience/: Refining UI/UX and improving navigation and presentation
+#  - /Scalability and Security/: Upgrading system to handle increased loads and bolster security
+# - /Data Governance Compliance/: Align policies with Client's data governance and compliance policies
+
+# * Plan for Cultivator Demo
+# # ** Individual Contributions
+# #+BEGIN_notes
+# =Adam=
+# My primary focus will be on the frontend. I'll be implementing user feedback we've received to improve the interface and overall user journey.
+# I will also be working on adding more interactive elements to the application, aiming to create a more engaging and intuitive user experience.
+
+# =Ben=
+# I will focus on enhancing the backend infrastructure for better scalability and reliability. This includes optimizing our database interactions and ensuring our server architecture can handle higher loads efficiently.
+# Additionally, I'll work on implementing more comprehensive security measures to protect our data and user information.
+
+# =Dan=
+# I plan to concentrate on refining the API endpoints for better performance and reliability. This includes optimizing the code and ensuring smooth integration with the frontend.
+# I'll also be contributing to our testing efforts, particularly focusing on backend tests to validate our data processing and storage mechanisms.
+# #+END_notes
+
+# *Adam*
+#  - /Frontend Development/: Incorporate user feedback to improve interface
+#  - /Improve & Refactor/: Look to make improvements where necessary in the existing frontend design and code
+#  - /New Functionality/: Table pagination, dynamic table updating, table sorting, and feedback to user actions
+
+# *Ben*
+#  - /Datalake Infrastructure/: Begin Datalake integration
+#  - /Backend Infrastructure/: Enhance scalability and reliability
+#  - /Security Measures/: Implement IAMs and Datalake permissions
+#  - /Governance/: Requirements gathering and implementation of policies
+
+# *Dan*
+#  - /API Optimization/: Refine endpoints for performance
+#  - /Backend Testing/: Ensure robust data processing and storage
+
+# * Plan for Cultivator Demo
+# # ** Coordination and Goals
+# *Coordination and Goals*
+# #+BEGIN_notes
+# =Team Coordination=: All these efforts will be synchronized regularly through team meetings and collaborative tools to ensure we're aligned and making consistent progress towards our goals.
+# *Next Meeting*: By our next meeting, we aim to have made significant progress in these areas, with a focus on presenting a more polished and robust version of our application.
+# #+END_notes
+
+#  - /Regular Team Sync/: Ensure alignment and consistent progress
+#  - /Regular Client Sync/: Ensure alignment on integration requirements
+#  - /Aim for Next Meeting/: Present a new MVP iteration
+
+
 * Reintroduction
 *Project Client:* K + S Potash Canada
 
