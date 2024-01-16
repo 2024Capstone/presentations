@@ -161,6 +161,8 @@ I'll also be contributing to our testing efforts, particularly focusing on backe
 *Dan*
  - /API Optimization/: Refine endpoints for performance
  - /Backend Testing/: Ensure robust data processing and storage
+ - /Integrate Endpoints/: Fully implement endpoints beyond the mocks
+
 
 * Plan for Cultivator Demo
 # ** Coordination and Goals
@@ -176,6 +178,11 @@ I'll also be contributing to our testing efforts, particularly focusing on backe
 
 
 * Retrospective
+- We probably could have met with the clients more
+- We will perform user acceptance testing
+- Using localstack has put us in a good position to deploy for Janurary
+- Difficult to make progress in November due to the lack of a break
+
 #+BEGIN_notes
 =Retrospective=
 Discuss and reflect on the team's choices and progress in ENSE 400. What went well? What could be improved? What will the team commit to continue or change in ENSE 477?
