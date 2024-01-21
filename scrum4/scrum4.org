@@ -1,0 +1,138 @@
+#+Title: Scrum 4
+#+Subtitle: Codename 'Nardo'
+#+Subtitle: ENSE400, University of Regina
+#+Author: Ben Hajdukiewicz, Daniil Aleshechkin, Adam Metz
+# #+OPTIONS: num:nil
+# #+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+# #+OPTIONS: toc:nil
+
+* Reintroduction
+*Project Client:* K + S Potash Canada
+
+*Client Challenge:* Huge amount of data with no means for aggregation, processing, exploration.
+
+*Project Overview:*
+The  project aims to address critical challenges and opportunities in data science and data management within the organization.
+
+*Goal:* Improve operational efficiency, data uniformity, and environmental sustainability
+
+*How:* Create a management tool for data pre-processing, exploratory data analysis (EDA), and data management
+
+[[../vlog2/logo.svg]]
+
+* Scope
+*Creation of:*
+- web interface with SSO using Azure AD
+  - enter new use cases
+  - view existing use cases
+  - monitor processing jobs
+  - retrieve Power Bi query of processed data
+
+- processing pipeline
+- infrastructure on AWS
+  - VPC, EC2, S3, Load balancing, Reporting
+  - CloudFormation, ECS, ECR, SQS, SageMaker
+  - DataLake (currently using DynamoDB)
+
+- IAM Permission setup
+- CI/CD utilizing Localstack (both locally and in the cloud)
+- CI/CD utilizing AWS Services
+
+#+BEGIN_notes
+VPC - Virtual Private Cloud handles deployment/isolation of services across a network
+
+EC2 - Elastic Compute Cloud scalable virtual machine service
+
+S3 - Simple Storage Service is object storage/datalake backend
+
+Load Balancing - distribute multiple containers and balance traffic between them
+
+CloudFormation - deployment of AWS resources
+
+ECS - Elastic Container Service to deploy, manage, scale containers
+
+ECR - Elastic Container Registry is basically a repo for Docker/OCI images
+
+SQS - Simple Queue Service is a queue service
+
+SageMaker - ML environment with Notebooks (jupyter, etc.)
+#+END_notes
+
+
+# * Architecture
+# [[file:../bazaar/arch.png]]
+
+
+* Status
+<2024-01-22 Mon>
+
+Last scrum <2024-01-15 Mon>
+
+*Current Status:* Green
+#TODO DAN/ADAM
+
+*Reasons for Status:*
+- data lake infrastructure well underway
+- significant progress on web-app completed
+#TODO DAN/ADAM
+
+*Planned Actions:*
+- complete development of /MVP2/
+- revisit goals with Client to align with their new strategic roadmap
+#TODO DAN/ADAM
+
+
+* Progress
+*Ben:*
+- IAC templates for data lake deployment on AWS completed
+- testing initial deployment of data lake
+  - /S3/, /Elastic Search/, /Athena/, /Glue/
+
+*Daniil:*
+#TODO DAN
+- ...
+
+*Adam:*
+#TODO ADAM
+- ...
+
+
+* Issues
+No significant project issues have been identified at this stage. We are actively monitoring and managing potential risks, as outlined in the risk management section of the project charter.
+
+
+* Scope Changes
+- Data lake design and deployment
+
+
+* Next Up
+*Ben:*
+- continue with data lake deployment and testing
+- limitations of Localstack wrt/ data lake
+- data lake infrastructure doc creation
+- determine path forward to migrate to /Lake Formation/
+
+*Daniil:*
+#TODO DAN
+- ...
+
+*Adam:*
+#TODO ADAM
+- ...
+
+# * Planned Progress
+# - continue refining project documentation,
+
+* Team Reflection
+*On Status:* We are currently green status.
+
+*Progress to Feel Good About:*
+# Lots of progress has been made on the backend & frontend development for the website.
+
+*Barriers to Success:*
+# Currently, we need to ensure we have alignment on project roadmap.
+
+*Help Required:*
+# We don't require additional help at this stage, but we will seek guidance if challenges arise.
+
+*Questions/Concerns:*
