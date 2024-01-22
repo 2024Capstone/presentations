@@ -73,13 +73,12 @@ Last scrum <2024-01-15 Mon>
 *Reasons for Status:*
 - data lake infrastructure well underway
 - significant progress on web-app completed
-#TODO DAN
+- server-side mocks removed 
 
 *Planned Actions:*
 - complete development of /MVP2/
 - revisit goals with Client to align with their new strategic roadmap
-#TODO DAN
-
+- Get mock datalake integrated
 
 * Roadmap
 
@@ -92,13 +91,12 @@ Last scrum <2024-01-15 Mon>
   - /S3/, /Elastic Search/, /Athena/, /Glue/
 
 *Daniil:*
-#TODO DAN
-- ...
+- Hooked up dynamodb with use-cases
+- Hooked up dynamodb with analysis types
 
 *Adam:*
 - Frontend Design & Implementation of Use Case table pagination
 - Minor improvements to responsiveness of the application
-
 
 * Issues
 - significant issues have yet to be identified at this stage
@@ -120,8 +118,9 @@ Last scrum <2024-01-15 Mon>
 - path forward to migrate to /Lake Formation/
 
 *Daniil:*
-#TODO DAN
-- ...
+- Remove server-side pagination code
+- Refactor code + set up environment variables
+- Swap out Dynamodb for data-lake
 
 *Adam:*
 - improve table searching to encompass more table columns
