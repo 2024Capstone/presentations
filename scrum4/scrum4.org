@@ -81,6 +81,10 @@ Last scrum <2024-01-15 Mon>
 #TODO DAN
 
 
+* Roadmap
+
+[[./scrum4.png]]
+
 * Progress
 *Ben:*
 - IAC templates for data lake deployment on AWS completed
