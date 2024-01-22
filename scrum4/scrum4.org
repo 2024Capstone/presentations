@@ -68,8 +68,7 @@ SageMaker - ML environment with Notebooks (jupyter, etc.)
 
 Last scrum <2024-01-15 Mon>
 
-*Current Status:* Green
-#TODO DAN
+*Current Status:* =Green=
 
 *Reasons for Status:*
 - data lake infrastructure well underway
@@ -85,7 +84,7 @@ Last scrum <2024-01-15 Mon>
 * Progress
 *Ben:*
 - IAC templates for data lake deployment on AWS completed
-- testing initial deployment of data lake
+- testing deployment of data lake
   - /S3/, /Elastic Search/, /Athena/, /Glue/
 
 *Daniil:*
@@ -96,12 +95,17 @@ Last scrum <2024-01-15 Mon>
 - Frontend Design & Implementation of Use Case table pagination
 - Minor improvements to responsiveness of the application
 
+
 * Issues
-No significant project issues have been identified at this stage. We are actively monitoring and managing potential risks, as outlined in the risk management section of the project charter.
+- significant issues have yet to be identified at this stage
+- a thorough evaluation of IAM permissions must be done before deployment to AWS
+  - localstack has numerous problems handling IAM
 
 
 * Scope Changes
-- Data lake design and deployment
+- data lake design and deployment
+  - new documentation required
+  - updates to architecture diagram
 
 
 * Next Up
@@ -109,30 +113,30 @@ No significant project issues have been identified at this stage. We are activel
 - continue with data lake deployment and testing
 - limitations of Localstack wrt/ data lake
 - data lake infrastructure doc creation
-- determine path forward to migrate to /Lake Formation/
+- path forward to migrate to /Lake Formation/
 
 *Daniil:*
 #TODO DAN
 - ...
 
 *Adam:*
-- Improve table searching to encompass more table columns
-- Add functionality to sort columns (By date, author, status, etc.)
-- Improve responsiveness of Use Case table page
+- improve table searching to encompass more table columns
+- add functionality to sort columns (By date, author, status, etc.)
+- improve responsiveness of Use Case table page
 
-# * Planned Progress
-# - continue refining project documentation,
 
 * Team Reflection
-*On Status:* We are currently green status.
+*On Status:* =Green=
 
 *Progress to Feel Good About:*
-# Lots of progress has been made on the backend & frontend development for the website.
+- Data lake progressing well
+#TODO ADAM/DAN
 
 *Barriers to Success:*
-# Currently, we need to ensure we have alignment on project roadmap.
+#TODO ADAM/DAN
 
 *Help Required:*
-# We don't require additional help at this stage, but we will seek guidance if challenges arise.
+#TODO ADAM/DAN
 
 *Questions/Concerns:*
+#TODO ADAM/DAN
