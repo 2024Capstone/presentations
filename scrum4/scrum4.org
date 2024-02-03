@@ -1,0 +1,146 @@
+#+Title: Scrum 4
+#+Subtitle: Codename 'Nardo'
+#+Subtitle: ENSE400, University of Regina
+#+Author: Ben Hajdukiewicz, Daniil Aleshechkin, Adam Metz
+# #+OPTIONS: num:nil
+# #+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+# #+OPTIONS: toc:nil
+
+* Reintroduction
+*Project Client:* K + S Potash Canada
+
+*Client Challenge:* Huge amount of data with no means for aggregation, processing, exploration.
+
+*Project Overview:*
+The  project aims to address critical challenges and opportunities in data science and data management within the organization.
+
+*Goal:* Improve operational efficiency, data uniformity, and environmental sustainability
+
+*How:* Create a management tool for data pre-processing, exploratory data analysis (EDA), and data management
+
+[[../vlog2/logo.svg]]
+
+* Scope
+*Creation of:*
+- web interface with SSO using Azure AD
+  - enter new use cases
+  - view existing use cases
+  - monitor processing jobs
+  - retrieve Power Bi query of processed data
+
+- processing pipeline
+- infrastructure on AWS
+  - VPC, EC2, S3, Load balancing, Reporting
+  - CloudFormation, ECS, ECR, SQS, SageMaker
+  - DataLake (currently using DynamoDB)
+
+- IAM Permission setup
+- CI/CD utilizing Localstack (both locally and in the cloud)
+- CI/CD utilizing AWS Services
+
+#+BEGIN_notes
+VPC - Virtual Private Cloud handles deployment/isolation of services across a network
+
+EC2 - Elastic Compute Cloud scalable virtual machine service
+
+S3 - Simple Storage Service is object storage/datalake backend
+
+Load Balancing - distribute multiple containers and balance traffic between them
+
+CloudFormation - deployment of AWS resources
+
+ECS - Elastic Container Service to deploy, manage, scale containers
+
+ECR - Elastic Container Registry is basically a repo for Docker/OCI images
+
+SQS - Simple Queue Service is a queue service
+
+SageMaker - ML environment with Notebooks (jupyter, etc.)
+#+END_notes
+
+* Scope Changes
+- data lake design and deployment
+  - new documentation required
+  - updates to architecture diagram
+
+
+# * Architecture
+# [[file:../bazaar/arch.png]]
+
+
+* Status
+<2024-01-22 Mon>
+
+Last scrum <2024-01-15 Mon>
+
+*Current Status:* =Green=
+
+*Reasons for Status:*
+- data lake infrastructure well underway
+- significant progress on web-app completed
+- server-side mocks removed 
+
+*Planned Actions:*
+- complete development of /MVP2/
+- revisit goals with Client to align with their new strategic roadmap
+- Get mock datalake integrated
+
+* Roadmap
+
+[[./scrum4.png]]
+
+* Progress
+
+User testing scheduled for Jan 30
+
+*Ben:*
+- IAC templates for data lake deployment on AWS completed
+- testing deployment of data lake
+  - /S3/, /Elastic Search/, /Athena/, /Glue/
+
+*Daniil:*
+- Hooked up dynamodb with use-cases
+- Hooked up dynamodb with analysis types
+
+*Adam:*
+- Frontend Design & Implementation of Use Case table pagination
+- Minor improvements to responsiveness of the application
+
+* Issues
+- significant issues have yet to be identified at this stage
+- a thorough evaluation of IAM permissions must be done before deployment to AWS
+  - localstack has numerous problems handling IAM
+
+
+
+* Next Up
+*Ben:*
+- continue with data lake deployment and testing
+- limitations of Localstack wrt/ data lake
+- data lake infrastructure doc creation
+- path forward to migrate to /Lake Formation/
+
+*Daniil:*
+- Remove server-side pagination code
+- Refactor code + set up environment variables
+- Swap out Dynamodb for data-lake
+
+*Adam:*
+- improve table searching to encompass more table columns
+- add functionality to sort columns (By date, author, status, etc.)
+- improve responsiveness of Use Case table page
+
+
+* Team Reflection
+*On Status:* =Green=
+
+*Progress to Feel Good About:*
+- Data lake progressing well
+
+*Barriers to Success:*
+- currently none
+
+*Help Required:*
+- currently none
+
+*Questions/Concerns:*
