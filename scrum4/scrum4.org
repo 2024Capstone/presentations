@@ -58,6 +58,11 @@ SQS - Simple Queue Service is a queue service
 SageMaker - ML environment with Notebooks (jupyter, etc.)
 #+END_notes
 
+* Scope Changes
+- data lake design and deployment
+  - new documentation required
+  - updates to architecture diagram
+
 
 # * Architecture
 # [[file:../bazaar/arch.png]]
@@ -85,6 +90,9 @@ Last scrum <2024-01-15 Mon>
 [[./scrum4.png]]
 
 * Progress
+
+User testing scheduled for Jan 30
+
 *Ben:*
 - IAC templates for data lake deployment on AWS completed
 - testing deployment of data lake
@@ -103,11 +111,6 @@ Last scrum <2024-01-15 Mon>
 - a thorough evaluation of IAM permissions must be done before deployment to AWS
   - localstack has numerous problems handling IAM
 
-
-* Scope Changes
-- data lake design and deployment
-  - new documentation required
-  - updates to architecture diagram
 
 
 * Next Up
@@ -133,13 +136,11 @@ Last scrum <2024-01-15 Mon>
 
 *Progress to Feel Good About:*
 - Data lake progressing well
-#TODO ADAM/DAN
 
 *Barriers to Success:*
-#TODO ADAM/DAN
+- currently none
 
 *Help Required:*
-#TODO ADAM/DAN
+- currently none
 
 *Questions/Concerns:*
-#TODO ADAM/DAN
