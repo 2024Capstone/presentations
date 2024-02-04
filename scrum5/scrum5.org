@@ -79,14 +79,14 @@ Last scrum
 - MVP2 user testing completed
 - data lake infrastructure well underway
 - significant progress on web-app completed
-#TODO ADAM/DAN/BEN
+#TODO DAN/BEN
 
 *Planned Actions:*
 - incorporate feedback from user testing sessions 1 & 2
 - complete development of /MVP3/
 - Get mock data into datalake
 - complete view use case page
-#TODO ADAM/DAN/BEN
+#TODO DAN/BEN
 
 * Roadmap
 #TODO update this
@@ -103,37 +103,40 @@ Next round of user testing scheduled for weeks 7/8
 #TODO DAN
 
 *Adam:*
-#TODO ADAM
+- Improved search feature to search across multiple columns
+- Implemented & Tested UI components & functionality for sorting and filtering columns
 
 * Issues
 - significant issues have yet to be identified at this stage
 - a thorough evaluation of IAM permissions must be done before deployment to AWS
   - localstack has numerous problems handling IAM
-#TODO ADAM/DAN/BEN
+#TODO DAN/BEN
 
 * Next Up
 *Ben:*
 -
-#TODO ADAM/DAN/BEN
+#TODO BEN
 
 *Daniil:*
 #TODO DAN
 
 *Adam:*
-#TODO ADAM
+- Make UI modifications/improvements based on user testing results & feedback
+- Align UI design with K+S Corporate Design Manual
 
 
 * Team Reflection
 *On Status:* =Green=
 
 *Progress to Feel Good About:*
-#TODO ADAM/DAN/BEN
+- Received lots of great feedback from user testing
+#TODO DAN/BEN
 
 *Barriers to Success:*
-#TODO ADAM/DAN/BEN
+#TODO DAN/BEN
 
 *Help Required:*
-#TODO ADAM/DAN/BEN
+#TODO DAN/BEN
 
 *Questions/Concerns:*
-#TODO ADAM/DAN/BEN
+#TODO DAN/BEN
