@@ -36,3 +36,15 @@ img[src="../vlog2/logo.svg"] {
   width: 30% !important;
   height: auto;
 }
+
+#demo1 {
+  visibility: hidden;
+}
+
+#demo2 {
+  visibility: hidden;
+}
+
+#demo3 {
+  visibility: hidden;
+}
