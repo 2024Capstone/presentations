@@ -119,6 +119,11 @@ Last scrum
   - localstack has numerous problems handling IAM
 
 
+* Changes
+- Named our application: 'VisiLake'
+  - Project Day Title: 'VisiLake: Self-Service Data Lake Exploration & Analysis on AWS'
+
+
 * Next Up
 Next round of user testing scheduled for weeks 7/8
 
