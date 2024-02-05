@@ -164,16 +164,12 @@ Next round of user testing scheduled for weeks 7/8
 - Received lots of great feedback from user testing
 - Data lake coming together
 - Standardized + stable development environment
-#TODO DAN/BEN
 
 *Barriers to Success:*
-#TODO DAN/BEN
 
 *Help Required:*
-#TODO DAN/BEN
 
 *Questions/Concerns:*
-#TODO DAN/BEN
 
 * Demo1
 #+BEGIN_EXPORT html
