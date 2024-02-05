@@ -148,6 +148,7 @@ Next round of user testing scheduled for weeks 7/8
 *Adam:*
 - Make UI modifications/improvements based on user testing results & feedback
 - Align UI design with K+S Corporate Design Manual
+- Improve responsiveness of use case table page
 
 
 * Team Reflection
