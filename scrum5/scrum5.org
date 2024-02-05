@@ -88,16 +88,22 @@ Last scrum
 - complete view use case page
 #TODO DAN/BEN
 
+
 * Roadmap
-#TODO update this
-[[./scrum5.png]]
+#+BEGIN_EXPORT html
+<section data-background-image="./roadmap.png" data-background-size="100% auto" ></section>
+#+END_EXPORT
+
 
 * Progress
-
-Next round of user testing scheduled for weeks 7/8
+#+BEGIN_EXPORT html
+<section data-background-image="./burn-up.png" data-background-size="100% auto"></section>
+#+END_EXPORT
 
 *Ben:*
-#TODO BEN
+- lead user testing sessions
+- created user testing template
+- deployed data lake services to dev environment for testing
 
 *Daniil:*
 #TODO DAN
@@ -106,16 +112,20 @@ Next round of user testing scheduled for weeks 7/8
 - Improved search feature to search across multiple columns
 - Implemented & Tested UI components & functionality for sorting and filtering columns
 
+
 * Issues
 - significant issues have yet to be identified at this stage
 - a thorough evaluation of IAM permissions must be done before deployment to AWS
   - localstack has numerous problems handling IAM
-#TODO DAN/BEN
+
 
 * Next Up
+Next round of user testing scheduled for weeks 7/8
+
 *Ben:*
--
-#TODO BEN
+- Transition CloudFormation -> Terraform
+- Simplify DL stack
+- Deploy Athena to enable querying DL
 
 *Daniil:*
 #TODO DAN
@@ -130,6 +140,7 @@ Next round of user testing scheduled for weeks 7/8
 
 *Progress to Feel Good About:*
 - Received lots of great feedback from user testing
+- Data lake coming together
 #TODO DAN/BEN
 
 *Barriers to Success:*
@@ -144,15 +155,13 @@ Next round of user testing scheduled for weeks 7/8
 
 * Demo1
 #+BEGIN_EXPORT html
-<section data-background-iframe="http://localhost:3000" data-background-interactive></section>
-#+END_EXPORT
-
-#+BEGIN_EXPORT html
 <section data-background-iframe="http://localhost:45139" data-background-interactive></section>
 #+END_EXPORT
 
-
-* Demo2
 #+BEGIN_EXPORT html
 <section data-background-iframe="data.html" data-background-interactive></section>
+#+END_EXPORT
+
+#+BEGIN_EXPORT html
+<section data-background-iframe="http://localhost:3000" data-background-interactive></section>
 #+END_EXPORT
