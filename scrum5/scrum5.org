@@ -63,9 +63,12 @@ The  project aims to address critical challenges and opportunities in data scien
 #   - new documentation required
 #   - updates to architecture diagram
 
-# * Architecture
-# [[file:../bazaar/arch.png]]
+* Demo2
+#+BEGIN_EXPORT html
+<section data-background-image="./visilake.png" data-background-size="100% auto" ></section>
+#+END_EXPORT
 
+# [[../scrum5/visilake.png]]
 
 * Status
 <2024-02-05 Mon>
@@ -79,14 +82,14 @@ Last scrum
 - MVP2 user testing completed
 - data lake infrastructure well underway
 - significant progress on web-app completed
-#TODO DAN/BEN
+#TODO DAN
 
 *Planned Actions:*
-- incorporate feedback from user testing sessions 1 & 2
+- incorporate feedback from user testing sessions
 - complete development of /MVP3/
-- Get mock data into datalake
+- data lake ingestion
 - complete view use case page
-#TODO DAN/BEN
+#TODO DAN
 
 
 * Roadmap
@@ -114,18 +117,20 @@ Last scrum
 
 
 * User Testing
-- Conducted two user testing sessions
-- Problematic Features:
-  - File tag form field was a bit confusing
-  - 'Copy PowerBI Link' Button was confusing
-  - 'Submit Use Case' Button lacked 'feedback'
-  - Found a minor bug with pagination buttons
-- Suggestions:
-  - One user recommeneded we add a date range for the data being processed
-- Overall:
-  - Both users found that the website was easy and simple to use
-  - Users were interested in testing the application again once we have data being processed
-  - Users were able to understand the purpose of the application and how to use it, with very little assistance
+
+*Overall:*
+- users easily understood the purpose of each page at first sight
+  - very little assistance or explanation was required on what the application does
+- users are interested in testing next iteration
+
+*Problematic Features:*
+- Tag form field was a bit confusing
+- =Copy PowerBI Link= also grey out icon
+- =Submit Use Case= more descriptive error required
+- Found a minor bug with pagination buttons
+
+*Feature Required:*
+- date range for the data being processed, currently pulls all
 
 
 * Changes
