@@ -130,6 +130,7 @@ Next round of user testing scheduled for weeks 7/8
 *Ben:*
 - Transition CloudFormation -> Terraform
 - Simplify DL stack
+- test DL ingestion
 - Deploy Athena to enable querying DL
 
 *Daniil:*
