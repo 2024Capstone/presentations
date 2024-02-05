@@ -113,10 +113,19 @@ Last scrum
 - Implemented & Tested UI components & functionality for sorting and filtering columns
 
 
-* Issues
-- significant issues have yet to be identified at this stage
-- a thorough evaluation of IAM permissions must be done before deployment to AWS
-  - localstack has numerous problems handling IAM
+* User Testing
+- Conducted two user testing sessions
+- Problematic Features:
+  - File tag form field was a bit confusing
+  - 'Copy PowerBI Link' Button was confusing
+  - 'Submit Use Case' Button lacked 'feedback'
+  - Found a minor bug with pagination buttons
+- Suggestions:
+  - One user recommeneded we add a date range for the data being processed
+- Overall:
+  - Both users found that the website was easy and simple to use
+  - Users were interested in testing the application again once we have data being processed
+  - Users were able to understand the purpose of the application and how to use it, with very little assistance
 
 
 * Changes
