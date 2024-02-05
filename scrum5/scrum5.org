@@ -82,15 +82,14 @@ Last scrum
 - MVP2 user testing completed
 - data lake infrastructure well underway
 - significant progress on web-app completed
-#TODO DAN
+- new standardized development environment
 
 *Planned Actions:*
 - incorporate feedback from user testing sessions
 - complete development of /MVP3/
 - data lake ingestion
 - complete view use case page
-#TODO DAN
-
+- refactor to use environment variable
 
 * Roadmap
 #+BEGIN_EXPORT html
@@ -109,7 +108,8 @@ Last scrum
 - deployed data lake services to dev environment for testing
 
 *Daniil:*
-#TODO DAN
+- Migrated to new dev environment for datalake integration
+- Refactored data retrieval and serialization
 
 *Adam:*
 - Improved search feature to search across multiple columns
@@ -148,7 +148,8 @@ Next round of user testing scheduled for weeks 7/8
 - Deploy Athena to enable querying DL
 
 *Daniil:*
-#TODO DAN
+- Finish changes on environment variables
+- Work with ben to migrate off DynamoDB to the Datalake
 
 *Adam:*
 - Make UI modifications/improvements based on user testing results & feedback
@@ -162,6 +163,7 @@ Next round of user testing scheduled for weeks 7/8
 *Progress to Feel Good About:*
 - Received lots of great feedback from user testing
 - Data lake coming together
+- Standardized + stable development environment
 #TODO DAN/BEN
 
 *Barriers to Success:*
@@ -172,7 +174,6 @@ Next round of user testing scheduled for weeks 7/8
 
 *Questions/Concerns:*
 #TODO DAN/BEN
-
 
 * Demo1
 #+BEGIN_EXPORT html
