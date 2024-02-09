@@ -104,11 +104,39 @@ Last scrum
 #+END_EXPORT
 
 
-* Progress
-#+BEGIN_EXPORT html
-<section data-background-image="./burn-up.png" data-background-size="100% auto"></section>
-#+END_EXPORT
+* Project Activity (Scrum 3)
+*Ben:*
+- Infrastructure as code development
+- Optimized artifact caching -> 50% reduction in deploy time
+- Upgraded CI/CD to Localstack 3
+- Determining design patterns for processing framework
 
+*Daniil:*
+- Development & Testing of endpoints for form page, and use case table page
+- Connecting web endpoints to DynamoDB
+
+*Adam:*
+- Improvements to form page & navbar responsiveness
+- Added modal after form submission, to indicate if the form submission succeeded or not
+
+
+* Project Activity (Scrum 4)
+
+*Ben:*
+- IAC templates for data lake deployment on AWS completed
+- testing deployment of data lake
+  - /S3/, /Elastic Search/, /Athena/, /Glue/
+
+*Daniil:*
+- Hooked up dynamodb with use-cases
+- Hooked up dynamodb with analysis types
+
+*Adam:*
+- Frontend Design & Implementation of Use Case table pagination
+- Minor improvements to responsiveness of the application
+
+
+* Project Activity (Scrum 5)
 *Ben:*
 - lead user testing sessions
 - created user testing template
@@ -119,7 +147,6 @@ Last scrum
 - Refactored data retrieval and serialization
 
 *Adam:*
-- Frontend Design & Implementation of Use Case table pagination
 - Improved search feature to search across multiple columns
 - Implemented & Tested UI components & functionality for sorting and filtering columns
 
