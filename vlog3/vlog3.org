@@ -27,49 +27,6 @@ The  project aims to address critical challenges and opportunities in data scien
 
 [[../vlog2/logo.svg]]
 
-# * Scope
-# *Creation of:*
-# - web interface with SSO using Azure AD
-#   - enter new use cases
-#   - view existing use cases
-#   - monitor processing jobs
-#   - retrieve Power Bi query of processed data
-
-# - processing pipeline
-# - infrastructure on AWS
-#   - VPC, EC2, S3, Load balancing, Reporting
-#   - CloudFormation, ECS, ECR, SQS, SageMaker
-#   - DataLake (currently using DynamoDB)
-
-# - IAM Permission setup
-# - CI/CD utilizing Localstack (both locally and in the cloud)
-# - CI/CD utilizing AWS Services
-
-# #+BEGIN_notes
-# VPC - Virtual Private Cloud handles deployment/isolation of services across a network
-
-# EC2 - Elastic Compute Cloud scalable virtual machine service
-
-# S3 - Simple Storage Service is object storage/datalake backend
-
-# Load Balancing - distribute multiple containers and balance traffic between them
-
-# CloudFormation - deployment of AWS resources
-
-# ECS - Elastic Container Service to deploy, manage, scale containers
-
-# ECR - Elastic Container Registry is basically a repo for Docker/OCI images
-
-# SQS - Simple Queue Service is a queue service
-
-# SageMaker - ML environment with Notebooks (jupyter, etc.)
-# #+END_notes
-
-# * Scope Changes
-# - data lake design and deployment
-#   - new documentation required
-#   - updates to architecture diagram
-
 * Demo2
 #+BEGIN_EXPORT html
 <section data-background-image="./visilake.png" data-background-size="100% auto" ></section>
@@ -98,17 +55,40 @@ Last scrum
 - complete view use case page
 - refactor to use environment variable
 
-* Roadmap
-#+BEGIN_EXPORT html
-<section data-background-image="./roadmap.png" data-background-size="100% auto" ></section>
-#+END_EXPORT
+
+* Project Activity (Scrum 3)
+*Ben:*
+- Infrastructure as code development
+- Optimized artifact caching -> 50% reduction in deploy time
+- Upgraded CI/CD to Localstack 3
+- Determining design patterns for processing framework
+
+*Daniil:*
+- Development & Testing of endpoints for form page, and use case table page
+- Connecting web endpoints to DynamoDB
+
+*Adam:*
+- Improvements to form page & navbar responsiveness
+- Added modal after form submission, to indicate if the form submission succeeded or not
 
 
-* Progress
-#+BEGIN_EXPORT html
-<section data-background-image="./burn-up.png" data-background-size="100% auto"></section>
-#+END_EXPORT
+* Project Activity (Scrum 4)
 
+*Ben:*
+- IAC templates for data lake deployment on AWS completed
+- testing deployment of data lake
+  - /S3/, /Elastic Search/, /Athena/, /Glue/
+
+*Daniil:*
+- Hooked up dynamodb with use-cases
+- Hooked up dynamodb with analysis types
+
+*Adam:*
+- Frontend Design & Implementation of Use Case table pagination
+- Minor improvements to responsiveness of the application
+
+
+* Project Activity (Scrum 5)
 *Ben:*
 - lead user testing sessions
 - created user testing template
@@ -119,7 +99,6 @@ Last scrum
 - Refactored data retrieval and serialization
 
 *Adam:*
-- Frontend Design & Implementation of Use Case table pagination
 - Improved search feature to search across multiple columns
 - Implemented & Tested UI components & functionality for sorting and filtering columns
 
@@ -128,6 +107,14 @@ Last scrum
 - Named our application: 'VisiLake'
   - Project Day Title: 'VisiLake: Self-Service Data Lake Exploration & Analysis on AWS'
 
+* Demo1
+#+BEGIN_EXPORT html
+<section data-background-iframe="http://localhost:45139" data-background-interactive></section>
+#+END_EXPORT
+
+#+BEGIN_EXPORT html
+<section data-background-iframe="data.html" data-background-interactive></section>
+#+END_EXPORT
 
 * Next Up
 Next round of user testing scheduled for weeks 7/8
@@ -162,15 +149,3 @@ Next round of user testing scheduled for weeks 7/8
 
 *Questions/Concerns:*
 
-* Demo1
-#+BEGIN_EXPORT html
-<section data-background-iframe="http://localhost:45139" data-background-interactive></section>
-#+END_EXPORT
-
-#+BEGIN_EXPORT html
-<section data-background-iframe="data.html" data-background-interactive></section>
-#+END_EXPORT
-
-#+BEGIN_EXPORT html
-<section data-background-iframe="http://localhost:3000" data-background-interactive></section>
-#+END_EXPORT
