@@ -39,7 +39,12 @@ VisiLake aims to address critical challenges and opportunities in data science a
   - Next.js
   - tRPC
 - Model
-  -
+  - AWS
+    - DynamoDB
+    - S3
+    - SQS
+    - EC2
+    - Athena
 
 * Architecture
 [[file:./arch.png]]
