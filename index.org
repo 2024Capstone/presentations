@@ -24,3 +24,5 @@
 - [[./scrum5/scrum5.html][Scrum 5]]
 
 - [[./vlog3/vlog3.html][Vlog 3]]
+
+- [[./scrum6/scrum6.html][Scrum 6]]
