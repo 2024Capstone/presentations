@@ -1,0 +1,72 @@
+#+Title: VisiLake: Self-Service Data Lake Exploration & Analysis on AWS
+#+Subtitle: Codename 'Nardo'
+#+Subtitle: ENSE400, University of Regina
+#+Author: Ben Hajdukiewicz, Daniil Aleshechkin, Adam Metz
+# #+OPTIONS: num:nil
+# #+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+# #+OPTIONS: toc:nil
+
+* Meet the Team
+- Ben Hajdukiewicz (Team Lead, Full-stack Developer)
+- Daniil Aleshechkin (Full-stack Developer)
+- Adam Metz (Full-stack Developer)
+
+* Project Introduction
+*Project Client:* K + S Potash Canada
+
+*Client Challenge:* Huge amount of data with no means for aggregation, processing, exploration. Currently lots of data is transferred around in bulky Excel spreadsheets.
+
+*Project Overview:*
+VisiLake aims to address critical challenges and opportunities in data science and data management within the organization.
+
+*Goal:* Improve operational efficiency, data uniformity, and environmental sustainability
+
+*How:* Create a management tool for data pre-processing, exploratory data analysis (EDA), and data management
+
+[[../vlog2/logo.svg]]
+
+* VisiLake
+#+BEGIN_EXPORT html
+<section data-background-image="./visilake.png" data-background-size="100% auto"></section>
+#+END_EXPORT
+
+* Technologies Used
+
+- View
+  - React
+  - Tailwind CSS
+- Controller
+  - Next.js
+  - tRPC
+- Model
+  - AWS
+    - DynamoDB
+    - S3
+    - SQS
+    - EC2
+    - Athena
+
+* Architecture
+[[file:./arch.png]]
+
+* [[http://localhost:45139][Demo]]
+
+*Job Title:* Process pump pressure
+
+*Job Desc:* A process engineer would like to know the rolling mean of the exit pressure of a process pump.
+
+*Tags:* TAG-PP-12345
+
+*Analysis Type:* Rolling mean
+
+
+* Demo1
+#+BEGIN_EXPORT html
+<section data-background-iframe="http://localhost:45139" data-background-interactive></section>
+#+END_EXPORT
+
+#+BEGIN_EXPORT html
+<section data-background-iframe="data.html" data-background-interactive></section>
+#+END_EXPORT
+
+* Q/A
