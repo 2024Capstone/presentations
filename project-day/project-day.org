@@ -7,9 +7,9 @@
 # #+OPTIONS: toc:nil
 
 * Meet the Team
-- Ben Hajdukiewicz (Team Lead, Full-stack Developer)
-- Daniil Aleshechkin (Full-stack Developer)
 - Adam Metz (Full-stack Developer)
+- Daniil Aleshechkin (Full-stack Developer)
+- Ben Hajdukiewicz (Team Lead, Full-stack Developer)
 
 * Project Introduction
 *Project Client:* K + S Potash Canada
@@ -54,6 +54,7 @@ VisiLake aims to address critical challenges and opportunities in data science a
 *Job Title:* NO2 Sensor Routine Inspection
 
 *Job Desc:* Conducting a routine inspection of NO2 data originating from source tag 1001-FI-50230 to ensure optimal performance and check for any potential issues.
+
 *Source Tag:* 1001-FI-50230
 
 *Analysis Type:* Exploratory Data Analysis
