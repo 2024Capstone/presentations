@@ -45,8 +45,8 @@ VisiLake aims to address critical challenges and opportunities in data science a
   - React
   - Tailwind CSS
 - Controller
-  - Next.js
   - tRPC
+  - Rust
 - Model
   - AWS
     - DynamoDB
@@ -54,6 +54,9 @@ VisiLake aims to address critical challenges and opportunities in data science a
     - SQS
     - EC2
     - Athena
+- Dev-Env
+  - NixOs
+  - Docker
 
 * Architecture
 [[file:./arch.png]]
