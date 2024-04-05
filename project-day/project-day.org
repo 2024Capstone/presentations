@@ -69,4 +69,10 @@ VisiLake aims to address critical challenges and opportunities in data science a
 <section data-background-iframe="data.html" data-background-interactive></section>
 #+END_EXPORT
 
+* Future Work
+
+- Broaden and enhance the variety of available data analysis methods
+- Provide users the option to fine tune and tailor each data analysis method
+- Integration with KSPC's data lake and authentication system
+
 * Q/A

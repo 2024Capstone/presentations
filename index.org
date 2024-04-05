@@ -26,3 +26,5 @@
 - [[./vlog3/vlog3.html][Vlog 3]]
 
 - [[./scrum6/scrum6.html][Scrum 6]]
+
+- [[./project-day/project-day.html][Project Day]]
