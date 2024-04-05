@@ -1,6 +1,5 @@
 #+Title: VisiLake: Self-Service Data Lake Exploration & Analysis on AWS
-#+Subtitle: Codename 'Nardo'
-#+Subtitle: ENSE400, University of Regina
+#+Subtitle: SSE Capstone Group #8, University of Regina
 #+Author: Ben Hajdukiewicz, Daniil Aleshechkin, Adam Metz
 # #+OPTIONS: num:nil
 # #+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
