@@ -51,13 +51,12 @@ VisiLake aims to address critical challenges and opportunities in data science a
 
 * [[http://localhost:45139][Demo]]
 
-*Job Title:* Process pump pressure
+*Job Title:* NO2 Sensor Routine Inspection
 
-*Job Desc:* A process engineer would like to know the rolling mean of the exit pressure of a process pump.
+*Job Desc:* Conducting a routine inspection of NO2 data originating from source tag 1001-FI-50230 to ensure optimal performance and check for any potential issues.
+*Source Tag:* 1001-FI-50230
 
-*Tags:* TAG-PP-12345
-
-*Analysis Type:* Rolling mean
+*Analysis Type:* Exploratory Data Analysis
 
 
 * Demo1
