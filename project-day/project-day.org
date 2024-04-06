@@ -26,40 +26,49 @@ VisiLake aims to address critical challenges and opportunities in data science a
 
 * What is a Data Lake?
 
-- *Data Repository:* A data lake is like a big pond where all types of data—structured, semi-structured, and unstructured—are stored in their raw form.
+- *Collection of Data:* Storage of all types of data
+  - structured, semi-structured, and unstructured—are stored in their raw form.
 
-- *Flexible Storage:* Unlike traditional databases, data lakes can handle various data formats without needing predefined schemas, making them versatile and adaptable.
+- *Flexible Storage:* Unlike traditional databases, data lakes can handle various data formats such as =csv= =json= =parquet=, etc. without needing predefined schemas
 
-- *Scalability:* Think of a data lake as a reservoir that can grow infinitely, allowing organizations to store and manage vast amounts of data as their needs expand.
+- *Scalability:* Organizations produce gigabytes of data per day, the storage and analysis solution must scale with that data growth
 
 - *Analytics Hub:* Data lakes serve as a hub for advanced analytics, providing a rich source of data for machine learning, AI, and other analytics tools to extract valuable insights.
 
-* VisiLake
+* Demo2
 #+BEGIN_EXPORT html
-<section data-background-image="./visilake.png" data-background-size="100% auto"></section>
+<section data-background-image="./visilake.png" data-background-size="75% auto"></section>
 #+END_EXPORT
 
 * Technologies Used
 
-- View
+- Application
   - React
   - Tailwind CSS
-- Controller
   - tRPC
   - Rust
-- Model
-  - AWS
-    - DynamoDB
-    - S3
-    - SQS
-    - EC2
-    - Athena
-- Dev-Env
-  - NixOs
-  - Docker
 
-* Architecture
-[[file:./arch.png]]
+- AWS
+  - DynamoDB
+  - Simple Storage Service
+  - Simple Queue Service
+  - Simple Notification Service
+  - Elastic Compute Cloud
+  - Athena + Glue
+
+- Deployment
+  - Nix
+  - Terraform
+  - Docker
+  - Localstack
+
+# * Architecture
+* Demo3
+
+#+BEGIN_EXPORT html
+<section data-background-image="./arch.png" data-background-size="75% auto"></section>
+#+END_EXPORT
+# [[file:./arch.png]]
 
 * [[http://localhost:45139][Demo]]
 
